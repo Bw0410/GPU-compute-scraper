@@ -4,16 +4,23 @@ from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 import os
 
-# ---------------- Settings ----------------
 INSTANCE_FILTERS = ['g*', 'p*', 'inf*', 'trn*', 'vt*']
-SPEC_REGION = 'us-east-1'   # region used to list regions and pull specs
-DAYS_BACK = 0               # 0 = current price only; up to 90 = price history
- 
-# Credentials: do NOT hardcode them. Run `aws configure` once, or set the
-# AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY environment variables.
+SPEC_REGION = 'us-east-1'
+DAYS_BACK = 0
+
+aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
+aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
+aws_session_token = os.getenv('AWS_SESSION_TOKEN')
+
+if not aws_access_key_id or not aws_secret_access_key:
+    raise RuntimeError(
+        "Missing AWS credentials. Set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY in GitHub Secrets."
+    )
+
 session = boto3.Session(
-    aws_access_key_id=os.environ['AWS_ACCESS_KEY_ID'],
-    aws_secret_access_key=os.environ['AWS_SECRET_ACCESS_KEY'],
+    aws_access_key_id=aws_access_key_id,
+    aws_secret_access_key=aws_secret_access_key,
+    aws_session_token=aws_session_token,
 )
  
 # ---------------- 1. Regions ----------------
