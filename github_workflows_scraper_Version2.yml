@@ -1,0 +1,31 @@
+name: Run GPU Scraper
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # every day at 6:00 AM UTC
+  workflow_dispatch:       # lets you run manually from GitHub
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run AWS script
+        env:
+          KEY_ID: ${{ secrets.KEY_ID }}
+          ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
+        run: python AWS_script.py
+
+      - name: Run Verda script
+        run: python Verda_script.py
