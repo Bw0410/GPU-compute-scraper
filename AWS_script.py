@@ -115,7 +115,7 @@ snapshot_df = (
 # ---------------- 4. Merge with specs ----------------
 specs_df = get_instance_specs()
 df = snapshot_df.merge(specs_df, on='InstanceType', how='left')
-df['ExtractionDate'] = extracted_at.date()
+df['ExtractionDate'] = extracted_at.date().isoformat()
 df['ExtractedAt'] = extracted_at.strftime('%Y-%m-%d %H:%M:%S')
 df = df.rename(columns={'Timestamp': 'PriceLastChanged'})
  
@@ -128,15 +128,17 @@ AWS_df = [df]
 AMZN_csv = 'AMZN.csv'
 
 def append_to_csv(new_df, path):
+    day = new_df['ExtractionDate'].iloc[0]
     if os.path.exists(path) and os.path.getsize(path) > 0:
         old = pd.read_csv(path)
-        # If you re-run on the same day, replace that day's rows instead of duplicating them
-        old = old[old['ExtractionDate'] != new_df['ExtractionDate'].iloc[0]]
+        old['ExtractionDate'] = pd.to_datetime(old['ExtractionDate'], errors='coerce').dt.strftime('%Y-%m-%d')
+        old = old.dropna(subset=['ExtractionDate'])
+        old = old[old['ExtractionDate'] != day]   # same-day re-run replaces, not duplicates
         combined = pd.concat([old, new_df], ignore_index=True)
     else:
         combined = new_df
     combined.to_csv(path, index=False)
-    print(f"Saved {len(new_df)} rows for {new_df['ExtractionDate'].iloc[0]} -> {path} ({len(combined)} rows total)")
+    print(f"Saved {len(new_df)} rows for {day} -> {path} ({len(combined)} rows total)")
 
 append_to_csv(AWS_df[0], AMZN_csv)
-display(AWS_df[0])
+print(AWS_df[0].head())
