@@ -1,0 +1,7 @@
+pandas
+requests
+beautifulsoup4
+boto3
+lxml
+tzdata
+python-dotenv
