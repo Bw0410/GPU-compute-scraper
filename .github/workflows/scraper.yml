@@ -29,3 +29,6 @@ jobs:
 
       - name: Run Verda script
         run: python Verda_script.py
+
+      - name: Run Coreweave script
+        run: python coreweave.py
