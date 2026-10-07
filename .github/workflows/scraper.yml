@@ -2,7 +2,7 @@ name: Run GPU Scraper
 
 on:
   schedule:
-    - cron: '0 9 * * *'   # 
+    - cron: '0 15 * * *'   # 
   workflow_dispatch:       # lets you run manually from GitHub
 
 jobs:
