@@ -2,7 +2,7 @@ name: Run GPU Scraper
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # every day at 6:00 AM UTC
+    - cron: '0 9 * * *'   # 
   workflow_dispatch:       # lets you run manually from GitHub
 
 jobs:
@@ -23,8 +23,8 @@ jobs:
 
       - name: Run AWS script
         env:
-          KEY_ID: ${{ secrets.KEY_ID }}
-          ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key_id }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_access_key }}
         run: python AWS_script.py
 
       - name: Run Verda script
