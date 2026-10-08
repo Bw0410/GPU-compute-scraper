@@ -42,7 +42,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add verda_pricing_history.csv
+          git add AMZN.csv verda_pricing_history.csv coreweave_na_pricing_history.csv coreweave_eu_pricing_history.csv
           git commit -m "Update GPU pricing data - $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
           git commit -m "Update GPU pricing data - $(date +'%Y-%m-%d')" || echo "No changes to commit"
