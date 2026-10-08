@@ -1,19 +1,15 @@
-from bs4 import BeautifulSoup 
+import os
 import requests
 import pandas as pd
-from io import StringIO  # Required to fix the Pandas warning
-from datetime import datetime, timezone
-import os
+from io import StringIO
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 # ==============================================================================
-# 1. SET WORKING DIRECTORY (Insert this at the top of your script)
+# 1. SET WORKING DIRECTORY
 # ==============================================================================
-target_folder = '/Users/brendonwong/Desktop/GPU power project'
-
-# Create the folder if it doesn't already exist on your Mac
-os.makedirs(target_folder, exist_ok=True)
-
-# Change Python's active directory to your target folder
+# Work in the folder this script lives in (repo root on GitHub, anywhere locally)
+target_folder = os.path.dirname(os.path.abspath(__file__))
 os.chdir(target_folder)
 print(f"Active working directory set to: {os.getcwd()}")
 
@@ -22,7 +18,7 @@ print(f"Active working directory set to: {os.getcwd()}")
 # 2. SCRAPE AND SAVE DATA
 # ==============================================================================
 csv_file = 'verda_pricing_history.csv'
-today_date = datetime.now().strftime('%Y-%m-%d')
+today_date = datetime.now(ZoneInfo('Asia/Singapore')).strftime('%Y-%m-%d')
 verda_url = 'https://verda.com/pricing'
 
 headers = {
@@ -42,8 +38,9 @@ if os.path.exists(csv_file):
 if not already_scraped:
     print(f"New date detected ({today_date}). Scraping data...")
     
-    verda_page = requests.get(verda_url, headers=headers)
-    verda_tables = pd.read_html(verda_page.text)
+    verda_page = requests.get(verda_url, headers=headers, timeout=30)
+    verda_page.raise_for_status()
+    verda_tables = pd.read_html(StringIO(verda_page.text))
     
     new_df = verda_tables[0].copy()
     
@@ -63,4 +60,4 @@ else:
 
 # Load into your requested coreweave_df / verda_df format
 verda_df = [pd.read_csv(csv_file)]
-display(verda_df[0])
+print(verda_df[0].head())
