@@ -1,0 +1,43 @@
+name: Test Spheron scraper
+
+on:
+  workflow_dispatch:      # manual only: no schedule, so it never runs on its own
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Spheron script
+        run: python Spheron_script.py
+
+      - name: Show the saved CSV in the log
+        run: head -20 spheron_pricing_history.csv
+
+      - name: Upload CSV as a downloadable file (no commit)
+        uses: actions/upload-artifact@v4
+        with:
+          name: spheron-test-output
+          path: spheron_pricing_history.csv
+
+      # Optional: uncomment to also save the CSV into the repo
+      # - name: Commit CSV
+      #   run: |
+      #     git config --local user.email "action@github.com"
+      #     git config --local user.name "GitHub Action"
+      #     git add spheron_pricing_history.csv
+      #     git diff --staged --quiet || git commit -m "Test: Spheron data $(date +'%Y-%m-%d')"
+      #     git push
