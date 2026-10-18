@@ -40,12 +40,15 @@ jobs:
 
       - name: Run Spheron script 
         run: python Spheron.py
+
+      - name: Run Azure script
+        run: python Azure_script.py
         
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add AMZN.csv verda_pricing_history.csv coreweave_na_pricing_history.csv coreweave_eu_pricing_history.csv spheron_pricing_history.csv
+          git add AMZN.csv verda_pricing_history.csv coreweave_na_pricing_history.csv coreweave_eu_pricing_history.csv spheron_pricing_history.csv AZURE.csv
           git commit -m "Update GPU pricing data - $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
           git commit -m "Update GPU pricing data - $(date +'%Y-%m-%d')" || echo "No changes to commit"
