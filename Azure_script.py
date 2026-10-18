@@ -22,7 +22,7 @@ OUT_CSV = 'AZURE.csv'
 API_URL = 'https://prices.azure.com/api/retail/prices'
 # Azure GPU VM families: NC, ND, NV, NG
 PREFIXES = ['Standard_NC', 'Standard_ND', 'Standard_NV', 'Standard_NG']
-GPU_MODELS = ['MI300X', 'H200', 'H100', 'A100', 'A10', 'V620', 'V100', 'P100', 'P40', 'T4', 'M60', 'K80', 'MI25']
+GPU_MODELS = ['MI300X', 'H200', 'H100', 'A100', 'A10', 'V620', 'V710', 'V100', 'P100', 'P40', 'T4', 'M60', 'K80', 'MI25']
 
 extracted_at = datetime.now(ZoneInfo('Asia/Singapore'))
 
@@ -58,12 +58,31 @@ def fetch_prices():
 
 
 # ---------------- 2. Turn raw items into one tidy table ----------------
+# Older families don't put the GPU model in the VM name, so map them by series.
+# (name pattern, GPU model) - checked in order against the name without "Standard_"
+SERIES_GPU = [
+    (r'^NC\d+r?$',        'K80'),    # NC v1: NC6, NC12, NC24, NC24r
+    (r'^NC\d+r?s_v2$',    'P100'),   # NC v2
+    (r'^NC\d+r?s_v3$',    'V100'),   # NC v3
+    (r'^ND\d+r?s$',       'P40'),    # ND v1: ND6s ... ND24rs
+    (r'^ND\d+rs_v2$',     'V100'),   # ND v2
+    (r'^ND\d+asr_v4$',    'A100'),   # ND A100 v4
+    (r'^NV\d+$',          'M60'),    # NV v1
+    (r'^NV\d+s_v3$',      'M60'),    # NV v3
+    (r'^NV\d+as_v4$',     'MI25'),   # NV v4 (AMD Radeon Instinct MI25, partial GPU)
+]
+
+
 def parse_name(arm_sku):
     """vCPU and GPU model read from names like Standard_ND96isr_H100_v5."""
     base = arm_sku.replace('Standard_', '')
     m = re.match(r'^N[A-Z](\d+)', base)
     vcpu = int(m.group(1)) if m else np.nan
+    # 1) GPU model written in the name (e.g. ..._H100_v5)
     model = next((t for t in base.split('_') if t in GPU_MODELS), None)
+    # 2) otherwise look the series up in the table above
+    if model is None:
+        model = next((g for pat, g in SERIES_GPU if re.match(pat, base)), None)
     return vcpu, model
 
 
@@ -88,6 +107,7 @@ def build_df(items):
             'PriceType': ptype,
             'Price': float(it['retailPrice']),
             'Unit': it.get('unitOfMeasure'),
+            'Series': re.sub(r'^Virtual Machines\s+|\s+Windows$', '', it.get('productName', '')),
             'PriceLastChanged': pd.to_datetime(it.get('effectiveStartDate'), utc=True, errors='coerce'),
         })
     raw = pd.DataFrame(rows)
@@ -101,6 +121,9 @@ def build_df(items):
     changed = (raw.groupby(['Region', 'InstanceType', 'OS'])['PriceLastChanged']
                .max().reset_index())
     df = wide.merge(changed, on=['Region', 'InstanceType', 'OS'], how='left')
+
+    series = raw.groupby(['Region', 'InstanceType', 'OS'])['Series'].first().reset_index()
+    df = df.merge(series, on=['Region', 'InstanceType', 'OS'], how='left')
     for col in ('OnDemandPrice', 'SpotPrice', 'LowPriorityPrice'):
         if col not in df.columns:
             df[col] = np.nan
@@ -166,6 +189,11 @@ if __name__ == '__main__':
 
     df['ExtractionDate'] = extracted_at.date().isoformat()
     df['ExtractedAt'] = extracted_at.strftime('%Y-%m-%d %H:%M:%S')
+
+    missing = df.loc[df['Accelerator'].isna(), ['InstanceType', 'Series']].drop_duplicates()
+    if len(missing):
+        print("\nNo GPU model known for these - add a rule to SERIES_GPU:")
+        print(missing.to_string(index=False))
 
     AZURE_df = [df]
     append_to_csv(AZURE_df[0], OUT_CSV)
