@@ -27,6 +27,7 @@ OUT_CSV = 'OCI.csv'
 PRICE_API = 'https://apexapps.oracle.com/pls/apex/cetools/api/v1/products/'
 DOCS_URL = 'https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm'
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
+PREEMPTIBLE_DISCOUNT = 0.5   # preemptible = 50% off on-demand (https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/preemptible.htm#howitworks__d87e202)
 
 extracted_at = datetime.now(ZoneInfo('Asia/Singapore'))
 
@@ -261,6 +262,8 @@ def build_df(catalog, specs, api_last_updated):
         found = find_price(catalog, gpu_items, s['Shape'], info, s['GPUs']) if info else None
         row, basis, per_gpu, per_shape = found if found else (None, None, np.nan, np.nan)
         front, rdma = network_numbers(s['NetworkLines'])
+        spot_per_gpu = per_gpu * PREEMPTIBLE_DISCOUNT
+        spot_per_shape = per_shape * PREEMPTIBLE_DISCOUNT
         per_ocpu = info.get('vcpu_per_ocpu', 2) if info else 2
         rows.append({
             'Provider': 'OCI',
@@ -287,6 +290,9 @@ def build_df(catalog, specs, api_last_updated):
             'GpuProductName': row['displayName'] if row is not None else None,
             'PricePerGPU_hr_USD': per_gpu,
             'OnDemandPrice': per_shape,                  # price of the whole shape per hour
+            'SpotPrice': spot_per_shape,                 # whole shape per hour, same column name as AWS/Azure
+            'SpotPricePerGPU_hr_USD': spot_per_gpu,
+            'SpotDiscountPct': PREEMPTIBLE_DISCOUNT * 100,
             'PriceLastChanged': api_last_updated,        # when Oracle last updated its price list
         })
     return pd.DataFrame(rows)
