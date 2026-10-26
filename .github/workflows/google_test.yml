@@ -40,11 +40,11 @@ jobs:
           path: google_cloud_gpu_pricing.csv
           if-no-files-found: warn
           
-      # Optional: uncomment to also save the CSV into the repo
-      # - name: Commit CSV
-      #   run: |
-      #     git config --local user.email "action@github.com"
-      #     git config --local user.name "GitHub Action"
-      #     git add google_cloud_gpu_pricing.csv
-      #     git diff --staged --quiet || git commit -m "Update GPU pricing $(date +'%Y-%m-%d')"
-      #     git push
+      #Optional: uncomment to also save the CSV into the repo
+      - name: Commit CSV
+        run: |
+           git config --local user.email "action@github.com"
+           git config --local user.name "GitHub Action"
+           git add google_cloud_gpu_pricing.csv
+           git diff --staged --quiet || git commit -m "Update GPU pricing $(date +'%Y-%m-%d')"
+           git push
