@@ -46,12 +46,15 @@ jobs:
 
       - name: Run OCI script
         run: python OCI_script.py
+
+      - name: Run google script
+        run: python google.py
         
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add AMZN.csv verda_pricing_history.csv coreweave_na_pricing_history.csv coreweave_eu_pricing_history.csv spheron_pricing_history.csv AZURE.csv OCI.csv
+          git add AMZN.csv verda_pricing_history.csv coreweave_na_pricing_history.csv coreweave_eu_pricing_history.csv spheron_pricing_history.csv AZURE.csv OCI.csv google_cloud_gpu_pricing.csv
           git commit -m "Update GPU pricing data - $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
           git commit -m "Update GPU pricing data - $(date +'%Y-%m-%d')" || echo "No changes to commit"
