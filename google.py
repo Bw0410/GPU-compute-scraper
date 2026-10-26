@@ -11,9 +11,12 @@ TABLE_SELECTOR = '[role="region"][aria-label="Pricing Table 1"] table'
 DROPDOWN = '[role="combobox"]'
 REGION_MENU = '[role="listbox"][aria-label="Region selector"]'
 
+MAX_RETRIES = 3
+UPDATE_WAIT_MS = 1500
+
 
 def get_gpu_table(page):
-    """Find the visible GPU pricing table using its headers."""
+    """Find the visible GPU pricing table by its headers."""
 
     tables = page.locator(TABLE_SELECTOR)
 
@@ -28,9 +31,11 @@ def get_gpu_table(page):
             for h in table.locator("th").all_inner_texts()
         ]
 
+        required = ["Machine type", "GPU", "Components"]
+
         if all(
             any(name in h for h in headers)
-            for name in ["Machine type", "GPU", "Components"]
+            for name in required
         ):
             return table
 
@@ -38,7 +43,7 @@ def get_gpu_table(page):
 
 
 def get_dropdown(page):
-    """Find the region selector associated with the GPU table."""
+    """Find the visible region dropdown."""
 
     dropdowns = page.locator(DROPDOWN)
 
@@ -57,7 +62,7 @@ def get_dropdown(page):
 
 
 def get_regions(page):
-    """Discover all available regions."""
+    """Discover every region in the dropdown."""
 
     dropdown = get_dropdown(page)
     dropdown.click()
@@ -69,30 +74,52 @@ def get_regions(page):
     options.first.wait_for(timeout=10000)
 
     regions = options.evaluate_all(
-        """els => els.map(el => el.getAttribute("data-value"))"""
-    )
+    """els => els.map(el => el.getAttribute("data-value"))"""
+)
 
-    # Close the menu using Escape
     page.keyboard.press("Escape")
 
     return list(dict.fromkeys(regions))
 
 
+def get_current_region(page):
+    """Read the currently selected region."""
+
+    return get_dropdown(page).inner_text().strip()
+
+
 def select_region(page, region):
-    """Select a region from the dropdown."""
+    """
+    Select a region using JavaScript to avoid
+    Playwright click timeouts on dropdown options.
+    """
+
+    if get_current_region(page) == region:
+        return
 
     dropdown = get_dropdown(page)
 
     if dropdown.get_attribute("aria-expanded") != "true":
-        dropdown.click()
+        dropdown.click(timeout=5000)
 
     option = page.locator(
         f'{REGION_MENU} [role="option"][data-value]'
     ).filter(has_text=region).first
 
-    option.click(timeout=10000)
+    option.wait_for(state="attached", timeout=10000)
 
-    # Confirm the dropdown displays the selected region
+    # Scroll option into view when possible
+    option.evaluate("""
+        el => el.scrollIntoView({
+            block: "nearest",
+            inline: "nearest"
+        })
+    """)
+
+    # DOM click avoids Playwright's actionability checks
+    option.evaluate("el => el.click()")
+
+    # Confirm that the displayed region changed
     page.wait_for_function(
         """region => {
             return Array.from(
@@ -107,7 +134,7 @@ def select_region(page, region):
 
 
 def scrape_table(page, region):
-    """Extract all rows and columns without modifying values."""
+    """Extract the original table values."""
 
     table = get_gpu_table(page)
 
@@ -150,6 +177,40 @@ def scrape_table(page, region):
     return records
 
 
+def scrape_region(page, region):
+    """Scrape a region with automatic retries."""
+
+    for attempt in range(1, MAX_RETRIES + 1):
+
+        try:
+            select_region(page, region)
+
+            # Allow pricing values to update
+            page.wait_for_timeout(UPDATE_WAIT_MS)
+
+            records = scrape_table(page, region)
+
+            if not records:
+                raise RuntimeError("No table rows extracted")
+
+            return records
+
+        except Exception as e:
+            print(
+                f"  Attempt {attempt}/{MAX_RETRIES} "
+                f"failed: {e}",
+                flush=True
+            )
+
+            if attempt < MAX_RETRIES:
+                page.keyboard.press("Escape")
+                page.wait_for_timeout(1000)
+
+    raise RuntimeError(
+        f"Unable to scrape {region} after {MAX_RETRIES} attempts"
+    )
+
+
 def main():
     all_records = []
     failed_regions = []
@@ -172,19 +233,12 @@ def main():
             timeout=60000
         )
 
-        # Wait for at least one matching table
         page.locator(TABLE_SELECTOR).first.wait_for(
             state="attached",
             timeout=30000
         )
 
-        table = get_gpu_table(page)
-
-        print(
-            "GPU table found:",
-            table.locator("th").all_inner_texts()[:3],
-            flush=True
-        )
+        get_gpu_table(page)
 
         regions = get_regions(page)
 
@@ -196,25 +250,17 @@ def main():
         for i, region in enumerate(regions, 1):
             start = time.monotonic()
 
+            print(
+                f"[{i}/{len(regions)}] Scraping {region}",
+                flush=True
+            )
+
             try:
-                print(
-                    f"[{i}/{len(regions)}] Scraping {region}",
-                    flush=True
-                )
-
-                select_region(page, region)
-
-                # Allow dynamic pricing data to update
-                page.wait_for_timeout(1000)
-
-                records = scrape_table(page, region)
-
-                if not records:
-                    raise ValueError("No rows extracted")
+                records = scrape_region(page, region)
 
                 all_records.extend(records)
 
-                # Save CSV progressively
+                # Save progress after every successful region
                 df = pd.DataFrame(all_records)
 
                 df.to_csv(
@@ -226,14 +272,18 @@ def main():
                 elapsed = time.monotonic() - start
 
                 print(
-                    f"  Saved {len(records)} rows "
-                    f"in {elapsed:.1f}s",
+                    f"  SUCCESS: {len(records)} rows "
+                    f"({elapsed:.1f}s)",
                     flush=True
                 )
 
             except Exception as e:
                 failed_regions.append(region)
-                print(f"  ERROR: {e}", flush=True)
+
+                print(
+                    f"  FAILED: {region} - {e}",
+                    flush=True
+                )
 
         browser.close()
 
@@ -242,19 +292,24 @@ def main():
 
     df = pd.DataFrame(all_records)
 
-    print("\nScraping complete!", flush=True)
-    print(f"Total rows: {len(df)}", flush=True)
-    print(f"Regions scraped: {df['Region'].nunique()}", flush=True)
-    print(f"Failed regions: {failed_regions}", flush=True)
-    print(f"Saved to: {OUTPUT}", flush=True)
+    print("\n========== SCRAPING SUMMARY ==========")
+    print(f"Total regions: {len(regions)}")
+    print(f"Successful regions: {df['Region'].nunique()}")
+    print(f"Failed regions: {len(failed_regions)}")
+    print(f"Total rows: {len(df)}")
+    print(f"Output: {OUTPUT}")
 
     if failed_regions:
+        print("\nFailed regions:")
+        for region in failed_regions:
+            print(f" - {region}")
+
         raise RuntimeError(
-            f"Failed to scrape {len(failed_regions)} regions: "
-            + ", ".join(failed_regions)
+            f"Scraping incomplete: {len(failed_regions)} regions failed"
         )
+
+    print("\nAll regions scraped successfully!")
 
 
 if __name__ == "__main__":
     main()
-
