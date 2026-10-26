@@ -1,151 +1,177 @@
 
+import os
+import time
 import pandas as pd
-from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
 from datetime import datetime, timezone
+from playwright.sync_api import sync_playwright
 
 URL = "https://cloud.google.com/products/compute/pricing/accelerator-optimized"
-
 OUTPUT = "google_cloud_gpu_pricing.csv"
 
-TABLE_SELECTOR = 'div[aria-label="Pricing Table 1"] table'
+TABLE = '[role="region"][aria-label="Pricing Table 1"] table'
+REGION_MENU = '[role="listbox"][aria-label="Region selector"]'
+DROPDOWN = '[role="combobox"]'
 
 
 def get_regions(page):
-    """Discover all available regions from the dropdown."""
+    page.locator(DROPDOWN).first.click()
 
-    dropdown = page.get_by_role("combobox").first
-    dropdown.click()
-
-    page.get_by_role("listbox", name="Region selector").wait_for()
-
-    regions = page.locator(
-        '[role="listbox"][aria-label="Region selector"] '
-        '[role="option"][data-value]'
-    ).evaluate_all(
-        "(elements) => elements.map(el => el.getAttribute('data-value'))"
+    options = page.locator(
+        f'{REGION_MENU} [role="option"][data-value]'
     )
+    options.first.wait_for(timeout=10000)
 
-    # Close dropdown
-    dropdown.click()
+    regions = options.evaluate_all(
+        """els => els.map(el => el.getAttribute("data-value"))"""
+    )
 
     return list(dict.fromkeys(regions))
 
 
+def get_selected_region(page):
+    return page.locator(
+        f'{DROPDOWN} [jsname="Fb0Bif"]'
+    ).first.inner_text().strip()
+
+
 def select_region(page, region):
-    """Select a region and wait for the pricing table to update."""
+    dropdown = page.locator(DROPDOWN).first
 
-    dropdown = page.get_by_role("combobox").first
-    dropdown.click()
+    # Open only if the menu is closed
+    if dropdown.get_attribute("aria-expanded") != "true":
+        dropdown.click()
 
-    page.get_by_role(
-        "option",
-        name=region,
-        exact=True
-    ).click()
+    page.locator(
+        f'{REGION_MENU} [role="option"][data-value]'
+    ).filter(has_text=region).first.click(timeout=10000)
 
-    page.wait_for_timeout(1500)
+    # Confirm the selector reflects the requested region
+    page.wait_for_function(
+        """region => {
+            const el = document.querySelector(
+                '[role="combobox"] [jsname="Fb0Bif"]'
+            );
+            return el && el.textContent.trim() === region;
+        }""",
+        arg=region,
+        timeout=10000
+    )
 
 
 def scrape_table(page, region):
-    """Extract the table without changing its original values."""
+    data = page.locator(TABLE).evaluate("""
+        table => {
+            const clean = el => el.innerText.trim();
 
-    html = page.locator(TABLE_SELECTOR).first.inner_html()
-    soup = BeautifulSoup(html, "lxml")
+            const headers = Array.from(
+                table.querySelectorAll("th")
+            ).map(clean);
 
-    table = soup.find("table")
+            const rows = Array.from(
+                table.querySelectorAll("tbody tr")
+            ).map(tr =>
+                Array.from(tr.querySelectorAll("td")).map(clean)
+            );
 
-    if table is None:
-        # inner_html() returns the contents, not the table tag itself
-        table = soup
+            return {headers, rows};
+        }
+    """)
 
-    headers = [
-        th.get_text(" ", strip=True)
-        for th in table.select("th")
-    ]
+    timestamp = datetime.now(timezone.utc).isoformat()
 
-    rows = []
-
-    for tr in table.select("tbody tr"):
-        cells = [
-            td.get_text(" ", strip=True)
-            for td in tr.select("td")
-        ]
-
-        if len(cells) != len(headers):
+    records = []
+    for cells in data["rows"]:
+        if len(cells) != len(data["headers"]):
             continue
 
-        record = dict(zip(headers, cells))
-        record = {
-    "Date Scraped (UTC)": datetime.now(timezone.utc).isoformat(),
-    "Region": region,
-    **record
-}
+        record = dict(zip(data["headers"], cells))
 
-        rows.append(record)
+        records.append({
+            "Date Scraped (UTC)": timestamp,
+            "Region": region,
+            **record
+        })
 
-    return rows
+    return records
 
 
 def main():
-    all_rows = []
+    all_records = []
+    failed_regions = []
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
 
         page = browser.new_page(
-            viewport={"width": 1920, "height": 1080}
+            viewport={"width": 1920, "height": 1080},
+            locale="en-US"
         )
-
-        print("Opening Google Cloud pricing page...")
 
         page.goto(
             URL,
             wait_until="domcontentloaded",
-            timeout=90000
-        )
-
-        page.locator(TABLE_SELECTOR).first.wait_for(
             timeout=60000
         )
 
-        regions = get_regions(page)
+        page.locator(TABLE).wait_for(timeout=30000)
 
-        print(f"Found {len(regions)} regions.\n")
+        regions = get_regions(page)
+        print(f"Found {len(regions)} regions.", flush=True)
 
         for i, region in enumerate(regions, 1):
+            start = time.monotonic()
+
             try:
-                print(f"[{i}/{len(regions)}] Scraping {region}")
+                print(
+                    f"[{i}/{len(regions)}] {region}",
+                    flush=True
+                )
 
                 select_region(page, region)
 
-                rows = scrape_table(page, region)
+                # Allow asynchronous pricing updates to settle.
+                # This is a delay, not a guarantee of fresh prices.
+                page.wait_for_timeout(1000)
 
-                all_rows.extend(rows)
+                records = scrape_table(page, region)
 
-                print(f"    Extracted {len(rows)} rows")
+                if not records:
+                    raise ValueError("No rows extracted")
+
+                all_records.extend(records)
+
+                # Save progressively
+                df = pd.DataFrame(all_records)
+                df.to_csv(
+                    OUTPUT,
+                    index=False,
+                    encoding="utf-8-sig"
+                )
+
+                elapsed = time.monotonic() - start
+                print(
+                    f"  Saved {len(records)} rows "
+                    f"({elapsed:.1f}s)",
+                    flush=True
+                )
 
             except Exception as e:
-                print(f"    ERROR: {e}")
+                failed_regions.append(region)
+                print(f"  ERROR: {e}", flush=True)
 
         browser.close()
 
-    if all_rows:
-        df = pd.DataFrame(all_rows)
+    if not all_records:
+        raise RuntimeError("No data was extracted.")
 
-        df.to_csv(
-            OUTPUT,
-            index=False,
-            encoding="utf-8-sig"
+    print(f"\nSaved {len(all_records)} total rows.")
+    print(f"Failed regions: {failed_regions}")
+
+    # Fail the GitHub Action if coverage is incomplete
+    if failed_regions:
+        raise RuntimeError(
+            f"Failed to scrape {len(failed_regions)} regions"
         )
-
-        print("\nScraping complete!")
-        print(f"Total rows: {len(df)}")
-        print(f"Total regions: {df['Region'].nunique()}")
-        print(f"Saved to: {OUTPUT}")
-
-    else:
-        print("No data extracted.")
 
 
 if __name__ == "__main__":
