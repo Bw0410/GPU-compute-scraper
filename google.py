@@ -2,6 +2,7 @@
 import pandas as pd
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
+from datetime import datetime, timezone
 
 URL = "https://cloud.google.com/products/compute/pricing/accelerator-optimized"
 
@@ -75,7 +76,11 @@ def scrape_table(page, region):
             continue
 
         record = dict(zip(headers, cells))
-        record = {"Region": region, **record}
+        record = {
+    "Date Scraped (UTC)": datetime.now(timezone.utc).isoformat(),
+    "Region": region,
+    **record
+}
 
         rows.append(record)
 
