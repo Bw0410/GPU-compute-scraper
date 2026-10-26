@@ -49,6 +49,14 @@ jobs:
 
       - name: Run google script
         run: python google.py
+
+      - name: Upload Google CSV
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: google-cloud-gpu-pricing
+          path: google_cloud_gpu_pricing.csv
+          if-no-files-found: warn
         
       - name: Commit and push changes
         run: |
