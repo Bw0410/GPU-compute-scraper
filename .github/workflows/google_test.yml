@@ -27,7 +27,7 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Run Google Cloud scraper
-        run: python scrape.py
+        run: python google.py
 
       - name: Show the saved CSV in the log
         run: head -20 google_cloud_gpu_pricing.csv
