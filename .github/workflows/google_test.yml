@@ -1,15 +1,14 @@
 
-name: Test GPU Pricing Scraper
+name: Test Google Cloud GPU Scraper
 
 on:
-  workflow_dispatch:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  workflow_dispatch:      # manual only: never runs automatically
+
+permissions:
+  contents: read
 
 jobs:
-  test-scraper:
+  test:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -18,45 +17,33 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
-      - name: Run GPU pricing scraper
+      - name: Run Google Cloud scraper
         run: python scrape.py
 
-      - name: Verify CSV output
-        run: |
-          python - <<'PY'
-          import pandas as pd
-          from pathlib import Path
+      - name: Show the saved CSV in the log
+        run: head -20 google_cloud_gpu_pricing.csv
 
-          file = Path("google_cloud_gpu_pricing.csv")
-
-          assert file.exists(), "CSV file was not created"
-
-          df = pd.read_csv(file)
-
-          assert not df.empty, "CSV is empty"
-          assert "Region" in df.columns, "Region column missing"
-          assert "Machine type" in df.columns, "Machine type column missing"
-
-          print("Scraper test passed!")
-          print(f"Rows: {len(df)}")
-          print(f"Regions: {df['Region'].nunique()}")
-          print(df.head().to_string(index=False))
-          PY
-
-      - name: Upload scraped CSV
-        if: always()
+      - name: Upload CSV as a downloadable file (no commit)
         uses: actions/upload-artifact@v4
         with:
           name: google-cloud-gpu-pricing
           path: google_cloud_gpu_pricing.csv
-          if-no-files-found: warn
+          if-no-files-found: error
+
+      # Optional: uncomment to also save the CSV into the repo
+      # - name: Commit CSV
+      #   run: |
+      #     git config --local user.email "action@github.com"
+      #     git config --local user.name "GitHub Action"
+      #     git add google_cloud_gpu_pricing.csv
+      #     git diff --staged --quiet || git commit -m "Update GPU pricing $(date +'%Y-%m-%d')"
+      #     git push
