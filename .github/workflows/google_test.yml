@@ -32,13 +32,14 @@ jobs:
       - name: Show the saved CSV in the log
         run: head -20 google_cloud_gpu_pricing.csv
 
-      - name: Upload CSV as a downloadable file (no commit)
+      - name: Upload CSV
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: google-cloud-gpu-pricing
           path: google_cloud_gpu_pricing.csv
-          if-no-files-found: error
-
+          if-no-files-found: warn
+          
       # Optional: uncomment to also save the CSV into the repo
       # - name: Commit CSV
       #   run: |
