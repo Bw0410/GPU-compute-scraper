@@ -1,15 +1,20 @@
 
 import time
-import pandas as pd
 from datetime import datetime, timezone
+
+import pandas as pd
 from playwright.sync_api import sync_playwright
 
-URL = "https://cloud.google.com/products/compute/pricing/accelerator-optimized"
+URL = (
+    "https://cloud.google.com/products/compute/"
+    "pricing/accelerator-optimized"
+)
+
 OUTPUT = "google_cloud_gpu_pricing.csv"
 
-TABLE_SELECTOR = '[role="region"][aria-label="Pricing Table 1"] table'
-DROPDOWN = '[role="combobox"]'
-REGION_MENU = '[role="listbox"][aria-label="Region selector"]'
+TABLE_SELECTOR = (
+    '[role="region"][aria-label="Pricing Table 1"] table'
+)
 
 MAX_RETRIES = 3
 UPDATE_WAIT_MS = 1500
@@ -42,73 +47,123 @@ def get_gpu_table(page):
     raise RuntimeError("GPU pricing table not found")
 
 
-def get_dropdown(page):
-    """Find the visible region dropdown."""
+def get_region_dropdown(page):
+    """
+    Find the region dropdown belonging to the GPU table.
+    """
 
-    dropdowns = page.locator(DROPDOWN)
+    table = get_gpu_table(page)
+
+    section = table.locator(
+        "xpath=ancestor::div[contains(@class, 'UAquKe')][1]"
+    )
+
+    if section.count() == 0:
+        raise RuntimeError("GPU pricing section not found")
+
+    dropdowns = section.locator('[role="combobox"]')
 
     for i in range(dropdowns.count()):
         dropdown = dropdowns.nth(i)
 
-        if not dropdown.is_visible():
-            continue
-
-        text = dropdown.inner_text().strip()
-
-        if "(" in text and ")" in text:
+        if dropdown.is_visible():
             return dropdown
 
-    raise RuntimeError("Region dropdown not found")
+    raise RuntimeError("GPU region dropdown not found")
 
 
-def get_regions(page):
-    """Discover every region in the dropdown."""
+def get_region_listbox(page, dropdown):
+    """
+    Locate the listbox linked to the dropdown.
+    """
 
-    dropdown = get_dropdown(page)
-    dropdown.click()
+    listbox_id = dropdown.get_attribute("aria-controls")
 
-    options = page.locator(
-        f'{REGION_MENU} [role="option"][data-value]'
-    )
+    if not listbox_id:
+        raise RuntimeError(
+            "Region dropdown has no aria-controls attribute"
+        )
 
-    options.first.wait_for(timeout=10000)
-
-    regions = options.evaluate_all(
-    """els => els.map(el => el.getAttribute("data-value"))"""
-)
-
-    page.keyboard.press("Escape")
-
-    return list(dict.fromkeys(regions))
+    return page.locator(
+        f'[role="listbox"][id="{listbox_id}"]'
+    ).first
 
 
-def get_current_region(page):
+def get_current_region(dropdown):
     """Read the currently selected region."""
 
-    return get_dropdown(page).inner_text().strip()
+    return dropdown.locator(
+        '[jsname="Fb0Bif"]'
+    ).inner_text().strip()
 
 
-def select_region(page, region):
-    """
-    Select a region using JavaScript to avoid
-    Playwright click timeouts on dropdown options.
-    """
-
-    if get_current_region(page) == region:
-        return
-
-    dropdown = get_dropdown(page)
+def open_dropdown(dropdown):
+    """Open the dropdown only if it is closed."""
 
     if dropdown.get_attribute("aria-expanded") != "true":
         dropdown.click(timeout=5000)
 
-    option = page.locator(
-        f'{REGION_MENU} [role="option"][data-value]'
-    ).filter(has_text=region).first
 
-    option.wait_for(state="attached", timeout=10000)
+def get_regions(page):
+    """Collect every region available in the dropdown."""
 
-    # Scroll option into view when possible
+    dropdown = get_region_dropdown(page)
+
+    open_dropdown(dropdown)
+
+    listbox = get_region_listbox(page, dropdown)
+
+    listbox.wait_for(
+        state="visible",
+        timeout=10000
+    )
+
+    regions = listbox.locator(
+        '[role="option"][data-value]'
+    ).evaluate_all("""
+        elements => elements.map(
+            el => el.getAttribute("data-value")
+        )
+    """)
+
+    page.keyboard.press("Escape")
+
+    regions = [
+        region for region in regions if region
+    ]
+
+    return list(dict.fromkeys(regions))
+
+
+def select_region(page, region):
+    """
+    Select a region using the dropdown's linked listbox.
+    """
+
+    dropdown = get_region_dropdown(page)
+
+    current = get_current_region(dropdown)
+
+    if current == region:
+        return
+
+    open_dropdown(dropdown)
+
+    listbox = get_region_listbox(page, dropdown)
+
+    # Match the exact data-value, not partial text.
+    option = listbox.locator(
+        '[role="option"][data-value]'
+    ).filter(
+        has_text=region
+    ).first
+
+    option.wait_for(
+        state="attached",
+        timeout=10000
+    )
+
+    # Scroll the option into the dropdown viewport.
     option.evaluate("""
         el => el.scrollIntoView({
             block: "nearest",
@@ -116,25 +171,42 @@ def select_region(page, region):
         })
     """)
 
-    # DOM click avoids Playwright's actionability checks
+    # Avoid Playwright actionability timeouts.
     option.evaluate("el => el.click()")
 
-    # Confirm that the displayed region changed
+    # Verify that the selected region changed.
     page.wait_for_function(
-        """region => {
-            return Array.from(
-                document.querySelectorAll('[role="combobox"]')
-            ).some(el =>
-                el.textContent.trim() === region
+        """({id, region}) => {
+            const dropdown = Array.from(
+                document.querySelectorAll(
+                    '[role="combobox"]'
+                )
+            ).find(
+                el => el.getAttribute("aria-controls") === id
             );
+
+            if (!dropdown) return false;
+
+            const label = dropdown.querySelector(
+                '[jsname="Fb0Bif"]'
+            );
+
+            return label &&
+                   label.textContent.trim() === region;
         }""",
-        arg=region,
+        arg={
+            "id": dropdown.get_attribute("aria-controls"),
+            "region": region
+        },
         timeout=10000
     )
 
 
 def scrape_table(page, region):
-    """Extract the original table values."""
+    """
+    Extract the original table values without
+    changing the prices or column structure.
+    """
 
     table = get_gpu_table(page)
 
@@ -158,11 +230,14 @@ def scrape_table(page, region):
         }
     """)
 
-    timestamp = datetime.now(timezone.utc).isoformat()
+    timestamp = datetime.now(
+        timezone.utc
+    ).isoformat()
 
     records = []
 
     for cells in data["rows"]:
+
         if len(cells) != len(data["headers"]):
             continue
 
@@ -178,20 +253,24 @@ def scrape_table(page, region):
 
 
 def scrape_region(page, region):
-    """Scrape a region with automatic retries."""
+    """
+    Scrape one region, retrying failed selections.
+    """
 
     for attempt in range(1, MAX_RETRIES + 1):
 
         try:
             select_region(page, region)
 
-            # Allow pricing values to update
+            # Allow asynchronous pricing updates.
             page.wait_for_timeout(UPDATE_WAIT_MS)
 
             records = scrape_table(page, region)
 
             if not records:
-                raise RuntimeError("No table rows extracted")
+                raise RuntimeError(
+                    "No pricing rows extracted"
+                )
 
             return records
 
@@ -202,30 +281,45 @@ def scrape_region(page, region):
                 flush=True
             )
 
-            if attempt < MAX_RETRIES:
+            try:
                 page.keyboard.press("Escape")
+            except Exception:
+                pass
+
+            if attempt < MAX_RETRIES:
                 page.wait_for_timeout(1000)
 
     raise RuntimeError(
-        f"Unable to scrape {region} after {MAX_RETRIES} attempts"
+        f"Unable to scrape {region} after "
+        f"{MAX_RETRIES} attempts"
     )
 
 
 def main():
+
     all_records = []
     failed_regions = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+
+        browser = p.chromium.launch(
+            headless=True
+        )
 
         page = browser.new_page(
-            viewport={"width": 1920, "height": 1080},
+            viewport={
+                "width": 1920,
+                "height": 1080
+            },
             locale="en-US"
         )
 
         page.set_default_timeout(10000)
 
-        print("Opening Google Cloud pricing page...", flush=True)
+        print(
+            "Opening Google Cloud pricing page...",
+            flush=True
+        )
 
         page.goto(
             URL,
@@ -233,7 +327,9 @@ def main():
             timeout=60000
         )
 
-        page.locator(TABLE_SELECTOR).first.wait_for(
+        page.locator(
+            TABLE_SELECTOR
+        ).first.wait_for(
             state="attached",
             timeout=30000
         )
@@ -243,24 +339,34 @@ def main():
         regions = get_regions(page)
 
         if not regions:
-            raise RuntimeError("No regions discovered")
+            raise RuntimeError(
+                "No regions discovered"
+            )
 
-        print(f"Found {len(regions)} regions.", flush=True)
+        print(
+            f"Found {len(regions)} regions.",
+            flush=True
+        )
 
         for i, region in enumerate(regions, 1):
+
             start = time.monotonic()
 
             print(
-                f"[{i}/{len(regions)}] Scraping {region}",
+                f"[{i}/{len(regions)}] "
+                f"Scraping {region}",
                 flush=True
             )
 
             try:
-                records = scrape_region(page, region)
+                records = scrape_region(
+                    page,
+                    region
+                )
 
                 all_records.extend(records)
 
-                # Save progress after every successful region
+                # Save after every successful region.
                 df = pd.DataFrame(all_records)
 
                 df.to_csv(
@@ -278,6 +384,7 @@ def main():
                 )
 
             except Exception as e:
+
                 failed_regions.append(region)
 
                 print(
@@ -288,7 +395,9 @@ def main():
         browser.close()
 
     if not all_records:
-        raise RuntimeError("No pricing data extracted")
+        raise RuntimeError(
+            "No pricing data extracted"
+        )
 
     df = pd.DataFrame(all_records)
 
@@ -300,12 +409,15 @@ def main():
     print(f"Output: {OUTPUT}")
 
     if failed_regions:
+
         print("\nFailed regions:")
+
         for region in failed_regions:
             print(f" - {region}")
 
         raise RuntimeError(
-            f"Scraping incomplete: {len(failed_regions)} regions failed"
+            f"Scraping incomplete: "
+            f"{len(failed_regions)} regions failed"
         )
 
     print("\nAll regions scraped successfully!")
