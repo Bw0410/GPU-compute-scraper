@@ -2,7 +2,7 @@
 name: Test Google Cloud GPU Scraper
 
 on:
-  workflow_dispatch:      # manual only: never runs automatically
+  workflow_dispatch:  # Manual only
 
 permissions:
   contents: read
@@ -23,28 +23,27 @@ jobs:
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
-      - name: Run Google Cloud scraper
+      - name: Run Google script
         run: python google.py
 
-      - name: Show the saved CSV in the log
-        run: head -20 google_cloud_gpu_pricing.csv
+      - name: Show saved CSV in log
+        if: always()
+        run: |
+          if [ -f google_cloud_gpu_pricing.csv ]; then
+            head -20 google_cloud_gpu_pricing.csv
+          else
+            echo "CSV not found"
+          fi
 
-      - name: Upload CSV
+      - name: Upload Google CSV
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: google-cloud-gpu-pricing
           path: google_cloud_gpu_pricing.csv
           if-no-files-found: warn
-          
-      #Optional: uncomment to also save the CSV into the repo
-      - name: Commit CSV
-        run: |
-           git config --local user.email "action@github.com"
-           git config --local user.name "GitHub Action"
-           git add google_cloud_gpu_pricing.csv
-           git diff --staged --quiet || git commit -m "Update GPU pricing $(date +'%Y-%m-%d')"
-           git push
+
