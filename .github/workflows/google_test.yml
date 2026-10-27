@@ -1,20 +1,30 @@
 
-name: Test Google Cloud GPU Scraper
+name: Daily Google Cloud GPU Pricing Scraper
 
 on:
-  workflow_dispatch:  # Manual only
+  workflow_dispatch:  # Allow manual runs
+
+  schedule:
+    - cron: '0 9 * * *'
+      timezone: 'Asia/Singapore'
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: google-gpu-pricing
+  cancel-in-progress: false
 
 jobs:
-  test:
+  scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -27,23 +37,41 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
-      - name: Run Google script
+      - name: Run Google Cloud scraper
         run: python google.py
 
-      - name: Show saved CSV in log
+      - name: Show CSV output
         if: always()
         run: |
           if [ -f google_cloud_gpu_pricing.csv ]; then
+            echo "CSV successfully created"
             head -20 google_cloud_gpu_pricing.csv
           else
             echo "CSV not found"
           fi
 
-      - name: Upload Google CSV
+      - name: Upload CSV artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: google-cloud-gpu-pricing
           path: google_cloud_gpu_pricing.csv
           if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit and push CSV
+        if: success()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add google_cloud_gpu_pricing.csv
+
+          if ! git diff --staged --quiet; then
+            git commit -m "Update Google GPU pricing - $(date +'%Y-%m-%d')"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+
 
