@@ -4,2576 +4,2596 @@
 info","Compute Flexible CUD - 1 Year* (USD)
 info","Compute Flexible CUD - 3 Year* (USD)
 info",DWS Flex-start price (USD),DWS Calendar Mode price (USD),Current Spot pricing (USD),Compute Resource CUDs - 1 Year (USD),Compute Resource CUDs - 3 Year (USD)
-2026-10-28T06:24:38.743293+00:00,Johannesburg (africa-south1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:24:38.743293+00:00,Johannesburg (africa-south1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:24:38.743293+00:00,Johannesburg (africa-south1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:18.711625+00:00,Johannesburg (africa-south1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:18.711625+00:00,Johannesburg (africa-south1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:18.711625+00:00,Johannesburg (africa-south1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.924536568 / 1 hour,$0.730383882 / 1 hour,$0.52698585 / 1 hour,N/A,N/A,$0.08318 / 1 hour,$0.58245812 / 1 hour,$0.416041476 / 1 hour
-2026-10-28T06:24:38.743293+00:00,Johannesburg (africa-south1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:18.711625+00:00,Johannesburg (africa-south1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.116540536 / 1 hour,$0.88206701 / 1 hour,$0.636428118 / 1 hour,N/A,N/A,$0.10046 / 1 hour,$0.70342064 / 1 hour,$0.502443252 / 1 hour
-2026-10-28T06:24:38.743293+00:00,Johannesburg (africa-south1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:18.711625+00:00,Johannesburg (africa-south1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.308544504 / 1 hour,$1.033750138 / 1 hour,$0.745870386 / 1 hour,N/A,N/A,$0.11774 / 1 hour,$0.82438316 / 1 hour,$0.588845028 / 1 hour
-2026-10-28T06:24:38.743293+00:00,Johannesburg (africa-south1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:18.711625+00:00,Johannesburg (africa-south1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.500548472 / 1 hour,$1.185433266 / 1 hour,$0.855312654 / 1 hour,N/A,N/A,$0.13502 / 1 hour,$0.94534568 / 1 hour,$0.675246804 / 1 hour
-2026-10-28T06:24:38.743293+00:00,Johannesburg (africa-south1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:18.711625+00:00,Johannesburg (africa-south1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.617089008 / 1 hour,$2.067500276 / 1 hour,$1.491740772 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.64876632 / 1 hour,$1.177690056 / 1 hour
-2026-10-28T06:24:38.743293+00:00,Johannesburg (africa-south1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:18.711625+00:00,Johannesburg (africa-south1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.268564344 / 1 hour,$1.792165778 / 1 hour,$1.293081726 / 1 hour,N/A,N/A,$0.20414 / 1 hour,$1.42919576 / 1 hour,$1.020853908 / 1 hour
-2026-10-28T06:24:38.743293+00:00,Johannesburg (africa-south1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:18.711625+00:00,Johannesburg (africa-south1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.234178016 / 1 hour,$4.135000552 / 1 hour,$2.983481544 / 1 hour,N/A,N/A,$0.47096 / 1 hour,$3.29753264 / 1 hour,$2.355380112 / 1 hour
-2026-10-28T06:24:38.743293+00:00,Johannesburg (africa-south1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:18.711625+00:00,Johannesburg (africa-south1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$10.468356032 / 1 hour,$8.270001104 / 1 hour,$5.966963088 / 1 hour,N/A,N/A,$0.94192 / 1 hour,$6.59506528 / 1 hour,$4.710760224 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.84094 / 1 hour,$0.7063896 / 1 hour,$0.4877452 / 1 hour,$0.32344 / 1 hour,-,$0.3883 / 1 hour,$0.58024 / 1 hour,$0.37002 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.68188 / 1 hour,$1.4127792 / 1 hour,$0.9754904 / 1 hour,$0.64688 / 1 hour,-,$0.7766 / 1 hour,$1.16048 / 1 hour,$0.74004 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.36376 / 1 hour,$2.8255584 / 1 hour,$1.9509808 / 1 hour,$1.29376 / 1 hour,-,$1.5532 / 1 hour,$2.32096 / 1 hour,$1.48008 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$5.849909 / 1 hour,$4.91392356 / 1 hour,$3.39294722 / 1 hour,$2.2500 / 1 hour,N/A,$2.70126 / 1 hour,$4.0365 / 1 hour,$2.573285 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$11.699818 / 1 hour,$9.82784712 / 1 hour,$6.78589444 / 1 hour,$4.500 / 1 hour,N/A,$5.40252 / 1 hour,$8.073 / 1 hour,$5.14657 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$23.399636 / 1 hour,$19.65569424 / 1 hour,$13.57178888 / 1 hour,$9 .0000/ 1 hour,N/A,$10.80504 / 1 hour,$16.146 / 1 hour,$10.29314 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$46.799272 / 1 hour,$39.31138848 / 1 hour,$27.14357776 / 1 hour,$18.0000 / 1 hour,N/A,$21.61008 / 1 hour,$32.292 / 1 hour,$20.58628 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.818441088 / 1 hour,$0.646568454 / 1 hour,$0.466511422 / 1 hour,N/A,N/A,$0.49034 / 1 hour,$0.515617916 / 1 hour,$0.368298512 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.988411576 / 1 hour,$0.780845134 / 1 hour,$0.563394602 / 1 hour,N/A,N/A,$0.59218 / 1 hour,$0.622699332 / 1 hour,$0.444785224 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.158382064 / 1 hour,$0.915121814 / 1 hour,$0.660277782 / 1 hour,N/A,N/A,$0.69402 / 1 hour,$0.729780748 / 1 hour,$0.521271936 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.328352552 / 1 hour,$1.049398494 / 1 hour,$0.757160962 / 1 hour,N/A,N/A,$0.79586 / 1 hour,$0.836862164 / 1 hour,$0.597758648 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.316764128 / 1 hour,$1.830243628 / 1 hour,$1.320555564 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.459561496 / 1 hour,$1.042543872 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.008234504 / 1 hour,$1.586505214 / 1 hour,$1.144693682 / 1 hour,N/A,N/A,$1.20322 / 1 hour,$1.265187828 / 1 hour,$0.903705496 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.633528256 / 1 hour,$3.660487256 / 1 hour,$2.641111128 / 1 hour,N/A,N/A,$2.77608 / 1 hour,$2.919122992 / 1 hour,$2.085087744 / 1 hour
-2026-10-28T06:24:40.544972+00:00,Taiwan (asia-east1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:20.535403+00:00,Taiwan (asia-east1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.267056512 / 1 hour,$7.320974512 / 1 hour,$5.282222256 / 1 hour,N/A,N/A,$5.55216 / 1 hour,$5.838245984 / 1 hour,$4.170175488 / 1 hour
-2026-10-28T06:24:42.328200+00:00,Hong Kong (asia-east2),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:24:42.328200+00:00,Hong Kong (asia-east2),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:24:42.328200+00:00,Hong Kong (asia-east2),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:22.338605+00:00,Hong Kong (asia-east2),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:22.338605+00:00,Hong Kong (asia-east2),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:22.338605+00:00,Hong Kong (asia-east2),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.988787668 / 1 hour,$0.781142253 / 1 hour,$0.563608979 / 1 hour,N/A,N/A,$0.089004 / 1 hour,$0.622936256 / 1 hour,$0.444954404 / 1 hour
-2026-10-28T06:24:42.328200+00:00,Hong Kong (asia-east2),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:22.338605+00:00,Hong Kong (asia-east2),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.194135036 / 1 hour,$0.943366669 / 1 hour,$0.680656987 / 1 hour,N/A,N/A,$0.107508 / 1 hour,$0.752305112 / 1 hour,$0.537360708 / 1 hour
-2026-10-28T06:24:42.328200+00:00,Hong Kong (asia-east2),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:22.338605+00:00,Hong Kong (asia-east2),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.399482404 / 1 hour,$1.105591085 / 1 hour,$0.797704995 / 1 hour,N/A,N/A,$0.126012 / 1 hour,$0.881673968 / 1 hour,$0.629767012 / 1 hour
-2026-10-28T06:24:42.328200+00:00,Hong Kong (asia-east2),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:22.338605+00:00,Hong Kong (asia-east2),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.604829772 / 1 hour,$1.267815501 / 1 hour,$0.914753003 / 1 hour,N/A,N/A,$0.144516 / 1 hour,$1.011042824 / 1 hour,$0.722173316 / 1 hour
-2026-10-28T06:24:42.328200+00:00,Hong Kong (asia-east2),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:22.338605+00:00,Hong Kong (asia-east2),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.798964808 / 1 hour,$2.21118217 / 1 hour,$1.59540999 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.763347936 / 1 hour,$1.259534024 / 1 hour
-2026-10-28T06:24:42.328200+00:00,Hong Kong (asia-east2),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:22.338605+00:00,Hong Kong (asia-east2),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.426219244 / 1 hour,$1.916713165 / 1 hour,$1.382945035 / 1 hour,N/A,N/A,$0.218532 / 1 hour,$1.528518248 / 1 hour,$1.091798532 / 1 hour
-2026-10-28T06:24:42.328200+00:00,Hong Kong (asia-east2),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:22.338605+00:00,Hong Kong (asia-east2),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.597929616 / 1 hour,$4.42236434 / 1 hour,$3.19081998 / 1 hour,N/A,N/A,$0.504048 / 1 hour,$3.526695872 / 1 hour,$2.519068048 / 1 hour
-2026-10-28T06:24:42.328200+00:00,Hong Kong (asia-east2),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:22.338605+00:00,Hong Kong (asia-east2),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$11.195859232 / 1 hour,$8.84472868 / 1 hour,$6.38163996 / 1 hour,N/A,N/A,$1.008096 / 1 hour,$7.053391744 / 1 hour,$5.038136096 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.84094 / 1 hour,$0.7063896 / 1 hour,$0.4877452 / 1 hour,$0.32344 / 1 hour,-,$0.3198 / 1 hour,$0.58024 / 1 hour,$0.37002 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.68188 / 1 hour,$1.4127792 / 1 hour,$0.9754904 / 1 hour,$0.64688 / 1 hour,-,$0.6396 / 1 hour,$1.16048 / 1 hour,$0.74004 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.36376 / 1 hour,$2.8255584 / 1 hour,$1.9509808 / 1 hour,$1.29376 / 1 hour,-,$1.2792 / 1 hour,$2.32096 / 1 hour,$1.48008 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$5.849909 / 1 hour,$4.91392356 / 1 hour,$3.39294722 / 1 hour,$2.2500 / 1 hour,N/A,$2.22472 / 1 hour,$4.0365 / 1 hour,$2.573285 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$11.699818 / 1 hour,$9.82784712 / 1 hour,$6.78589444 / 1 hour,$4.500 / 1 hour,N/A,$4.44944 / 1 hour,$8.073 / 1 hour,$5.14657 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$23.399636 / 1 hour,$19.65569424 / 1 hour,$13.57178888 / 1 hour,$9 .0000/ 1 hour,N/A,$8.89888 / 1 hour,$16.146 / 1 hour,$10.29314 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$46.799272 / 1 hour,$39.31138848 / 1 hour,$27.14357776 / 1 hour,$18.0000 / 1 hour,N/A,$17.79776 / 1 hour,$32.292 / 1 hour,$20.58628 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.907714004 / 1 hour,$0.717094063 / 1 hour,$0.517396989 / 1 hour,N/A,N/A,$0.442488 / 1 hour,$0.571859796 / 1 hour,$0.408471348 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.096224308 / 1 hour,$0.866017203 / 1 hour,$0.624847869 / 1 hour,N/A,N/A,$0.534376 / 1 hour,$0.690621292 / 1 hour,$0.493300996 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.284734612 / 1 hour,$1.014940343 / 1 hour,$0.732298749 / 1 hour,N/A,N/A,$0.626264 / 1 hour,$0.809382788 / 1 hour,$0.578130644 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.473244916 / 1 hour,$1.163863483 / 1 hour,$0.839749629 / 1 hour,N/A,N/A,$0.718152 / 1 hour,$0.928144284 / 1 hour,$0.662960292 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.569469224 / 1 hour,$2.029880686 / 1 hour,$1.464597498 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.618765576 / 1 hour,$1.156261288 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.227286132 / 1 hour,$1.759556043 / 1 hour,$1.269553149 / 1 hour,N/A,N/A,$1.085704 / 1 hour,$1.403190268 / 1 hour,$1.002278884 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.138938448 / 1 hour,$4.059761372 / 1 hour,$2.929194996 / 1 hour,N/A,N/A,$2.505056 / 1 hour,$3.237531152 / 1 hour,$2.312522576 / 1 hour
-2026-10-28T06:24:44.152144+00:00,Tokyo (asia-northeast1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:24.094092+00:00,Tokyo (asia-northeast1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$10.277876896 / 1 hour,$8.119522744 / 1 hour,$5.858389992 / 1 hour,N/A,N/A,$5.010112 / 1 hour,$6.475062304 / 1 hour,$4.625045152 / 1 hour
-2026-10-28T06:24:45.965471+00:00,Osaka (asia-northeast2),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:24:45.965471+00:00,Osaka (asia-northeast2),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:24:45.965471+00:00,Osaka (asia-northeast2),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:25.904109+00:00,Osaka (asia-northeast2),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:25.904109+00:00,Osaka (asia-northeast2),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:25.904109+00:00,Osaka (asia-northeast2),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.907714004 / 1 hour,$0.717094063 / 1 hour,$0.517396989 / 1 hour,N/A,N/A,$0.081768 / 1 hour,$0.571859796 / 1 hour,$0.408471348 / 1 hour
-2026-10-28T06:24:45.965471+00:00,Osaka (asia-northeast2),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:25.904109+00:00,Osaka (asia-northeast2),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.096224308 / 1 hour,$0.866017203 / 1 hour,$0.624847869 / 1 hour,N/A,N/A,$0.098736 / 1 hour,$0.690621292 / 1 hour,$0.493300996 / 1 hour
-2026-10-28T06:24:45.965471+00:00,Osaka (asia-northeast2),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:25.904109+00:00,Osaka (asia-northeast2),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.284734612 / 1 hour,$1.014940343 / 1 hour,$0.732298749 / 1 hour,N/A,N/A,$0.115704 / 1 hour,$0.809382788 / 1 hour,$0.578130644 / 1 hour
-2026-10-28T06:24:45.965471+00:00,Osaka (asia-northeast2),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:25.904109+00:00,Osaka (asia-northeast2),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.473244916 / 1 hour,$1.163863483 / 1 hour,$0.839749629 / 1 hour,N/A,N/A,$0.132672 / 1 hour,$0.928144284 / 1 hour,$0.662960292 / 1 hour
-2026-10-28T06:24:45.965471+00:00,Osaka (asia-northeast2),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:25.904109+00:00,Osaka (asia-northeast2),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.569469224 / 1 hour,$2.029880686 / 1 hour,$1.464597498 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.618765576 / 1 hour,$1.156261288 / 1 hour
-2026-10-28T06:24:45.965471+00:00,Osaka (asia-northeast2),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:25.904109+00:00,Osaka (asia-northeast2),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.227286132 / 1 hour,$1.759556043 / 1 hour,$1.269553149 / 1 hour,N/A,N/A,$0.200544 / 1 hour,$1.403190268 / 1 hour,$1.002278884 / 1 hour
-2026-10-28T06:24:45.965471+00:00,Osaka (asia-northeast2),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:25.904109+00:00,Osaka (asia-northeast2),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.138938448 / 1 hour,$4.059761372 / 1 hour,$2.929194996 / 1 hour,N/A,N/A,$0.462816 / 1 hour,$3.237531152 / 1 hour,$2.312522576 / 1 hour
-2026-10-28T06:24:45.965471+00:00,Osaka (asia-northeast2),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:25.904109+00:00,Osaka (asia-northeast2),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$10.277876896 / 1 hour,$8.119522744 / 1 hour,$5.858389992 / 1 hour,N/A,N/A,$0.925632 / 1 hour,$6.475062304 / 1 hour,$4.625045152 / 1 hour
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.84094 / 1 hour,$0.7063896 / 1 hour,$0.4877452 / 1 hour,$0.32344 / 1 hour,-,$0.3198 / 1 hour,$0.58024 / 1 hour,$0.37002 / 1 hour
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.68188 / 1 hour,$1.4127792 / 1 hour,$0.9754904 / 1 hour,$0.64688 / 1 hour,-,$0.6396 / 1 hour,$1.16048 / 1 hour,$0.74004 / 1 hour
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.36376 / 1 hour,$2.8255584 / 1 hour,$1.9509808 / 1 hour,$1.29376 / 1 hour,-,$1.2792 / 1 hour,$2.32096 / 1 hour,$1.48008 / 1 hour
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.907714004 / 1 hour,$0.717094063 / 1 hour,$0.517396989 / 1 hour,N/A,N/A,$0.291452 / 1 hour,$0.571859796 / 1 hour,$0.408471348 / 1 hour
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.096224308 / 1 hour,$0.866017203 / 1 hour,$0.624847869 / 1 hour,N/A,N/A,$0.352004 / 1 hour,$0.690621292 / 1 hour,$0.493300996 / 1 hour
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.284734612 / 1 hour,$1.014940343 / 1 hour,$0.732298749 / 1 hour,N/A,N/A,$0.412556 / 1 hour,$0.809382788 / 1 hour,$0.578130644 / 1 hour
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.473244916 / 1 hour,$1.163863483 / 1 hour,$0.839749629 / 1 hour,N/A,N/A,$0.473108 / 1 hour,$0.928144284 / 1 hour,$0.662960292 / 1 hour
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.569469224 / 1 hour,$2.029880686 / 1 hour,$1.464597498 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.618765576 / 1 hour,$1.156261288 / 1 hour
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.227286132 / 1 hour,$1.759556043 / 1 hour,$1.269553149 / 1 hour,N/A,N/A,$0.715316 / 1 hour,$1.403190268 / 1 hour,$1.002278884 / 1 hour
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.138938448 / 1 hour,$4.059761372 / 1 hour,$2.929194996 / 1 hour,N/A,N/A,$1.650224 / 1 hour,$3.237531152 / 1 hour,$2.312522576 / 1 hour
-2026-10-28T06:24:47.740345+00:00,Seoul (asia-northeast3),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:27.692365+00:00,Seoul (asia-northeast3),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$10.277876896 / 1 hour,$8.119522744 / 1 hour,$5.858389992 / 1 hour,N/A,N/A,$3.300448 / 1 hour,$6.475062304 / 1 hour,$4.625045152 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.84094 / 1 hour,$0.7063896 / 1 hour,$0.4877452 / 1 hour,$0.32344 / 1 hour,-,$0.3605 / 1 hour,$0.58024 / 1 hour,$0.37002 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.68188 / 1 hour,$1.4127792 / 1 hour,$0.9754904 / 1 hour,$0.64688 / 1 hour,-,$0.721 / 1 hour,$1.16048 / 1 hour,$0.74004 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.36376 / 1 hour,$2.8255584 / 1 hour,$1.9509808 / 1 hour,$1.29376 / 1 hour,-,$1.442 / 1 hour,$2.32096 / 1 hour,$1.48008 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$5.84959 / 1 hour,$4.9136556 / 1 hour,$3.3927622 / 1 hour,$2.2500 / 1 hour,N/A,$2.50786 / 1 hour,$4.03764 / 1 hour,$2.57276 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$11.69918 / 1 hour,$9.8273112 / 1 hour,$6.7855244 / 1 hour,$4.500 / 1 hour,N/A,$5.01572 / 1 hour,$8.07528 / 1 hour,$5.14552 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$23.39836 / 1 hour,$19.6546224 / 1 hour,$13.5710488 / 1 hour,$9 .0000/ 1 hour,N/A,$10.03144 / 1 hour,$16.15056 / 1 hour,$10.29104 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$46.79672 / 1 hour,$39.3092448 / 1 hour,$27.1420976 / 1 hour,$18.0000 / 1 hour,N/A,$20.06288 / 1 hour,$32.30112 / 1 hour,$20.58208 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.735779379 / 1 hour,$0.581265708 / 1 hour,$0.419394252 / 1 hour,N/A,N/A,$0.39342 / 1 hour,$0.463541024 / 1 hour,$0.331100679 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.888583031 / 1 hour,$0.701980592 / 1 hour,$0.50649234 / 1 hour,N/A,N/A,$0.47514 / 1 hour,$0.559807348 / 1 hour,$0.399862311 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.041386683 / 1 hour,$0.822695476 / 1 hour,$0.593590428 / 1 hour,N/A,N/A,$0.55686 / 1 hour,$0.656073672 / 1 hour,$0.468623943 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.194190335 / 1 hour,$0.94341036 / 1 hour,$0.680688516 / 1 hour,N/A,N/A,$0.63858 / 1 hour,$0.752339996 / 1 hour,$0.537385575 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.082773366 / 1 hour,$1.645390952 / 1 hour,$1.187180856 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.312147344 / 1 hour,$0.937247886 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.805404943 / 1 hour,$1.426269896 / 1 hour,$1.029080868 / 1 hour,N/A,N/A,$0.96546 / 1 hour,$1.137405292 / 1 hour,$0.812432103 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.165546732 / 1 hour,$3.290781904 / 1 hour,$2.374361712 / 1 hour,N/A,N/A,$2.22744 / 1 hour,$2.624294688 / 1 hour,$1.874495772 / 1 hour
-2026-10-28T06:24:49.502371+00:00,Mumbai (asia-south1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:29.478342+00:00,Mumbai (asia-south1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$8.331093464 / 1 hour,$6.581563808 / 1 hour,$4.748723424 / 1 hour,N/A,N/A,$4.45488 / 1 hour,$5.248589376 / 1 hour,$3.748991544 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.84094 / 1 hour,$0.7063896 / 1 hour,$0.4877452 / 1 hour,$0.32344 / 1 hour,-,$0.3482 / 1 hour,$0.58024 / 1 hour,$0.37002 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.68188 / 1 hour,$1.4127792 / 1 hour,$0.9754904 / 1 hour,$0.64688 / 1 hour,-,$0.6964 / 1 hour,$1.16048 / 1 hour,$0.74004 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.36376 / 1 hour,$2.8255584 / 1 hour,$1.9509808 / 1 hour,$1.29376 / 1 hour,-,$1.3928 / 1 hour,$2.32096 / 1 hour,$1.48008 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$5.849909 / 1 hour,$4.91392356 / 1 hour,$3.39294722 / 1 hour,$2.2500 / 1 hour,N/A,$2.4222 / 1 hour,$4.0365 / 1 hour,$2.573285 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$11.699818 / 1 hour,$9.82784712 / 1 hour,$6.78589444 / 1 hour,$4.500 / 1 hour,N/A,$4.8444 / 1 hour,$8.073 / 1 hour,$5.14657 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$23.399636 / 1 hour,$19.65569424 / 1 hour,$13.57178888 / 1 hour,$9 .0000/ 1 hour,N/A,$9.6888 / 1 hour,$16.146 / 1 hour,$10.29314 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$46.799272 / 1 hour,$39.31138848 / 1 hour,$27.14357776 / 1 hour,$18.0000 / 1 hour,N/A,$19.3776 / 1 hour,$32.292 / 1 hour,$20.58628 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.82547382 / 1 hour,$0.652124309 / 1 hour,$0.470520071 / 1 hour,N/A,N/A,$0.113128 / 1 hour,$0.52004858 / 1 hour,$0.374839236 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.97828334 / 1 hour,$0.772843821 / 1 hour,$0.557621491 / 1 hour,N/A,N/A,$0.134056 / 1 hour,$0.61631866 / 1 hour,$0.446979572 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.13109286 / 1 hour,$0.893563333 / 1 hour,$0.644722911 / 1 hour,N/A,N/A,$0.154984 / 1 hour,$0.71258874 / 1 hour,$0.519119908 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.28390238 / 1 hour,$1.014282845 / 1 hour,$0.731824331 / 1 hour,N/A,N/A,$0.175912 / 1 hour,$0.80885882 / 1 hour,$0.591260244 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.26218572 / 1 hour,$1.787126666 / 1 hour,$1.289445822 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.42517748 / 1 hour,$1.038239816 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.89514046 / 1 hour,$1.497160893 / 1 hour,$1.080230011 / 1 hour,N/A,N/A,$0.259624 / 1 hour,$1.19393914 / 1 hour,$0.879821588 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.52437144 / 1 hour,$3.574253332 / 1 hour,$2.578891644 / 1 hour,N/A,N/A,$0.619936 / 1 hour,$2.85035496 / 1 hour,$2.076479632 / 1 hour
-2026-10-28T06:24:51.277888+00:00,Delhi (asia-south2),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:31.228448+00:00,Delhi (asia-south2),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.04874288 / 1 hour,$7.148506664 / 1 hour,$5.157783288 / 1 hour,N/A,N/A,$1.239872 / 1 hour,$5.70070992 / 1 hour,$4.152959264 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.77626 / 1 hour,$0.6520584 / 1 hour,$0.4502308 / 1 hour,$0.32344 / 1 hour,-,$0.3291 / 1 hour,$0.53561 / 1 hour,$0.34156 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.55252 / 1 hour,$1.3041168 / 1 hour,$0.9004616 / 1 hour,$0.64688 / 1 hour,-,$0.6582 / 1 hour,$1.07122 / 1 hour,$0.68312 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.10504 / 1 hour,$2.6082336 / 1 hour,$1.8009232 / 1 hour,$1.29376 / 1 hour,-,$1.3164 / 1 hour,$2.14244 / 1 hour,$1.36624 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$5.399916 / 1 hour,$4.53592944 / 1 hour,$3.13195128 / 1 hour,$2.2500 / 1 hour,N/A,$2.2895 / 1 hour,$3.726 / 1 hour,$2.37534 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$10.799832 / 1 hour,$9.07185888 / 1 hour,$6.26390256 / 1 hour,$4.500 / 1 hour,N/A,$4.579 / 1 hour,$7.452 / 1 hour,$4.75068 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$21.599664 / 1 hour,$18.14371776 / 1 hour,$12.52780512 / 1 hour,$9 .0000/ 1 hour,N/A,$9.158 / 1 hour,$14.904 / 1 hour,$9.50136 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$43.199328 / 1 hour,$36.28743552 / 1 hour,$25.05561024 / 1 hour,$18.0000 / 1 hour,N/A,$18.316 / 1 hour,$29.808 / 1 hour,$19.00272 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.872018928 / 1 hour,$0.688894944 / 1 hour,$0.497050788 / 1 hour,N/A,N/A,$0.523272 / 1 hour,$0.549371904 / 1 hour,$0.392408492 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.053116256 / 1 hour,$0.831961824 / 1 hour,$0.600276264 / 1 hour,N/A,N/A,$0.631944 / 1 hour,$0.663463208 / 1 hour,$0.473902284 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.234213584 / 1 hour,$0.975028704 / 1 hour,$0.70350174 / 1 hour,N/A,N/A,$0.740616 / 1 hour,$0.777554512 / 1 hour,$0.555396076 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.415310912 / 1 hour,$1.118095584 / 1 hour,$0.806727216 / 1 hour,N/A,N/A,$0.849288 / 1 hour,$0.891645816 / 1 hour,$0.636889868 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.468427168 / 1 hour,$1.950057408 / 1 hour,$1.40700348 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.555109024 / 1 hour,$1.110792152 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.139700224 / 1 hour,$1.690363104 / 1 hour,$1.21962912 / 1 hour,N/A,N/A,$1.283976 / 1 hour,$1.348011032 / 1 hour,$0.962865036 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.936854336 / 1 hour,$3.900114816 / 1 hour,$2.81400696 / 1 hour,N/A,N/A,$2.962464 / 1 hour,$3.110218048 / 1 hour,$2.221584304 / 1 hour
-2026-10-28T06:24:53.026068+00:00,Singapore (asia-southeast1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:32.992729+00:00,Singapore (asia-southeast1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.873708672 / 1 hour,$7.800229632 / 1 hour,$5.62801392 / 1 hour,N/A,N/A,$5.924928 / 1 hour,$6.220436096 / 1 hour,$4.443168608 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.84094 / 1 hour,$0.7063896 / 1 hour,$0.4877452 / 1 hour,$0.32344 / 1 hour,-,$0.3604 / 1 hour,$0.58024 / 1 hour,$0.37002 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.68188 / 1 hour,$1.4127792 / 1 hour,$0.9754904 / 1 hour,$0.64688 / 1 hour,-,$0.7208 / 1 hour,$1.16048 / 1 hour,$0.74004 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.36376 / 1 hour,$2.8255584 / 1 hour,$1.9509808 / 1 hour,$1.29376 / 1 hour,-,$1.4416 / 1 hour,$2.32096 / 1 hour,$1.48008 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$5.84959 / 1 hour,$4.9136556 / 1 hour,$3.3927622 / 1 hour,$2.2500 / 1 hour,N/A,$2.50704 / 1 hour,$4.175286 / 1 hour,$2.661705623 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$11.69918 / 1 hour,$9.8273112 / 1 hour,$6.7855244 / 1 hour,$4.500 / 1 hour,N/A,$5.01408 / 1 hour,$8.350572 / 1 hour,$5.323411246 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$23.39836 / 1 hour,$19.6546224 / 1 hour,$13.5710488 / 1 hour,$9 .0000/ 1 hour,N/A,$10.02816 / 1 hour,$16.701144 / 1 hour,$10.646822492 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$46.79672 / 1 hour,$39.3092448 / 1 hour,$27.1420976 / 1 hour,$18.0000 / 1 hour,N/A,$20.05632 / 1 hour,$33.402288 / 1 hour,$21.293644984 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.95047734 / 1 hour,$0.750877107 / 1 hour,$0.541772089 / 1 hour,N/A,N/A,$0.085784 / 1 hour,$0.59880068 / 1 hour,$0.427714748 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.14786858 / 1 hour,$0.906816195 / 1 hour,$0.654285101 / 1 hour,N/A,N/A,$0.103568 / 1 hour,$0.72315716 / 1 hour,$0.516540796 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.34525982 / 1 hour,$1.062755283 / 1 hour,$0.766798113 / 1 hour,N/A,N/A,$0.121352 / 1 hour,$0.84751364 / 1 hour,$0.605366844 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.54265106 / 1 hour,$1.218694371 / 1 hour,$0.879311125 / 1 hour,N/A,N/A,$0.139136 / 1 hour,$0.97187012 / 1 hour,$0.694192892 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.69051964 / 1 hour,$2.125510566 / 1 hour,$1.533596226 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.69502728 / 1 hour,$1.210733688 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.33221602 / 1 hour,$1.842450723 / 1 hour,$1.329363173 / 1 hour,N/A,N/A,$0.210272 / 1 hour,$1.46929604 / 1 hour,$1.049497084 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.38103928 / 1 hour,$4.251021132 / 1 hour,$3.067192452 / 1 hour,N/A,N/A,$0.485408 / 1 hour,$3.39005456 / 1 hour,$2.421467376 / 1 hour
-2026-10-28T06:24:54.775314+00:00,Jakarta (asia-southeast2),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:34.748740+00:00,Jakarta (asia-southeast2),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$10.76207856 / 1 hour,$8.502042264 / 1 hour,$6.134384904 / 1 hour,N/A,N/A,$0.970816 / 1 hour,$6.78010912 / 1 hour,$4.842934752 / 1 hour
-2026-10-28T06:24:56.531949+00:00,Sydney (australia-southeast1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:24:56.531949+00:00,Sydney (australia-southeast1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:24:56.531949+00:00,Sydney (australia-southeast1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:36.521864+00:00,Sydney (australia-southeast1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:36.521864+00:00,Sydney (australia-southeast1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:36.521864+00:00,Sydney (australia-southeast1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.883229213 / 1 hour,$0.697751074 / 1 hour,$0.503440662 / 1 hour,N/A,N/A,$0.079644 / 1 hour,$0.556434413 / 1 hour,$0.397453164 / 1 hour
-2026-10-28T06:24:56.531949+00:00,Sydney (australia-southeast1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:36.521864+00:00,Sydney (australia-southeast1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.066654641 / 1 hour,$0.842657158 / 1 hour,$0.607993166 / 1 hour,N/A,N/A,$0.096188 / 1 hour,$0.671992417 / 1 hour,$0.47999462 / 1 hour
-2026-10-28T06:24:56.531949+00:00,Sydney (australia-southeast1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:36.521864+00:00,Sydney (australia-southeast1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.250080069 / 1 hour,$0.987563242 / 1 hour,$0.71254567 / 1 hour,N/A,N/A,$0.112732 / 1 hour,$0.787550421 / 1 hour,$0.562536076 / 1 hour
-2026-10-28T06:24:56.531949+00:00,Sydney (australia-southeast1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:36.521864+00:00,Sydney (australia-southeast1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.433505497 / 1 hour,$1.132469326 / 1 hour,$0.817098174 / 1 hour,N/A,N/A,$0.129276 / 1 hour,$0.903108425 / 1 hour,$0.645077532 / 1 hour
-2026-10-28T06:24:56.531949+00:00,Sydney (australia-southeast1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:36.521864+00:00,Sydney (australia-southeast1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.500160138 / 1 hour,$1.975126484 / 1 hour,$1.42509134 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.575100842 / 1 hour,$1.125072152 / 1 hour
-2026-10-28T06:24:56.531949+00:00,Sydney (australia-southeast1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:36.521864+00:00,Sydney (australia-southeast1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.167207209 / 1 hour,$1.712093662 / 1 hour,$1.23530819 / 1 hour,N/A,N/A,$0.195452 / 1 hour,$1.365340441 / 1 hour,$0.975243356 / 1 hour
-2026-10-28T06:24:56.531949+00:00,Sydney (australia-southeast1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:36.521864+00:00,Sydney (australia-southeast1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.000320276 / 1 hour,$3.950252968 / 1 hour,$2.85018268 / 1 hour,N/A,N/A,$0.450928 / 1 hour,$3.150201684 / 1 hour,$2.250144304 / 1 hour
-2026-10-28T06:24:56.531949+00:00,Sydney (australia-southeast1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:36.521864+00:00,Sydney (australia-southeast1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$10.000640552 / 1 hour,$7.900505936 / 1 hour,$5.70036536 / 1 hour,N/A,N/A,$0.901856 / 1 hour,$6.300403368 / 1 hour,$4.500288608 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.84094 / 1 hour,$0.7063896 / 1 hour,$0.4877452 / 1 hour,$0.32344 / 1 hour,-,$0.3198 / 1 hour,$0.58024 / 1 hour,$0.37002 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.68188 / 1 hour,$1.4127792 / 1 hour,$0.9754904 / 1 hour,$0.64688 / 1 hour,-,$0.6396 / 1 hour,$1.16048 / 1 hour,$0.74004 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.36376 / 1 hour,$2.8255584 / 1 hour,$1.9509808 / 1 hour,$1.29376 / 1 hour,-,$1.2792 / 1 hour,$2.32096 / 1 hour,$1.48008 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$5.849909 / 1 hour,$4.91392356 / 1 hour,$3.39294722 / 1 hour,$2.2500 / 1 hour,N/A,$2.22472 / 1 hour,$4.0365 / 1 hour,$2.573285 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$11.699818 / 1 hour,$9.82784712 / 1 hour,$6.78589444 / 1 hour,$4.500 / 1 hour,N/A,$4.44944 / 1 hour,$8.073 / 1 hour,$5.14657 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$23.399636 / 1 hour,$19.65569424 / 1 hour,$13.57178888 / 1 hour,$9 .0000/ 1 hour,N/A,$8.89888 / 1 hour,$16.146 / 1 hour,$10.29314 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$46.799272 / 1 hour,$39.31138848 / 1 hour,$27.14357776 / 1 hour,$18.0000 / 1 hour,N/A,$17.79776 / 1 hour,$32.292 / 1 hour,$20.58628 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.918558385 / 1 hour,$0.725661126 / 1 hour,$0.523578272 / 1 hour,N/A,N/A,$0.082652 / 1 hour,$0.578691789 / 1 hour,$0.413351284 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.109320833 / 1 hour,$0.876363462 / 1 hour,$0.63231286 / 1 hour,N/A,N/A,$0.099804 / 1 hour,$0.698872113 / 1 hour,$0.499194392 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.300083281 / 1 hour,$1.027065798 / 1 hour,$0.741047448 / 1 hour,N/A,N/A,$0.116956 / 1 hour,$0.819052437 / 1 hour,$0.5850375 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.490845729 / 1 hour,$1.177768134 / 1 hour,$0.849782036 / 1 hour,N/A,N/A,$0.134108 / 1 hour,$0.939232761 / 1 hour,$0.670880608 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.600166562 / 1 hour,$2.054131596 / 1 hour,$1.482094896 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.638104874 / 1 hour,$1.170075 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.253895521 / 1 hour,$1.780577478 / 1 hour,$1.284720388 / 1 hour,N/A,N/A,$0.202716 / 1 hour,$1.419954057 / 1 hour,$1.01425304 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.200333124 / 1 hour,$4.108263192 / 1 hour,$2.964189792 / 1 hour,N/A,N/A,$0.467824 / 1 hour,$3.276209748 / 1 hour,$2.34015 / 1 hour
-2026-10-28T06:24:58.297838+00:00,Melbourne (australia-southeast2),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:38.272956+00:00,Melbourne (australia-southeast2),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$10.400666248 / 1 hour,$8.216526384 / 1 hour,$5.928379584 / 1 hour,N/A,N/A,$0.935648 / 1 hour,$6.552419496 / 1 hour,$4.6803 / 1 hour
-2026-10-28T06:25:00.044095+00:00,Warsaw (europe-central2),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:00.044095+00:00,Warsaw (europe-central2),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:00.044095+00:00,Warsaw (europe-central2),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:40.026282+00:00,Warsaw (europe-central2),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:40.026282+00:00,Warsaw (europe-central2),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:40.026282+00:00,Warsaw (europe-central2),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.899164832 / 1 hour,$0.710340214 / 1 hour,$0.51252395 / 1 hour,N/A,N/A,$0.081736 / 1 hour,$0.566473872 / 1 hour,$0.404624172 / 1 hour
-2026-10-28T06:25:00.044095+00:00,Warsaw (europe-central2),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:40.026282+00:00,Warsaw (europe-central2),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.076773864 / 1 hour,$0.850651346 / 1 hour,$0.613761094 / 1 hour,N/A,N/A,$0.097872 / 1 hour,$0.678367544 / 1 hour,$0.484548244 / 1 hour
-2026-10-28T06:25:00.044095+00:00,Warsaw (europe-central2),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:40.026282+00:00,Warsaw (europe-central2),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.254382896 / 1 hour,$0.990962478 / 1 hour,$0.714998238 / 1 hour,N/A,N/A,$0.114008 / 1 hour,$0.790261216 / 1 hour,$0.564472316 / 1 hour
-2026-10-28T06:25:00.044095+00:00,Warsaw (europe-central2),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:40.026282+00:00,Warsaw (europe-central2),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.431991928 / 1 hour,$1.13127361 / 1 hour,$0.816235382 / 1 hour,N/A,N/A,$0.130144 / 1 hour,$0.902154888 / 1 hour,$0.644396388 / 1 hour
-2026-10-28T06:25:00.044095+00:00,Warsaw (europe-central2),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:40.026282+00:00,Warsaw (europe-central2),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.508765792 / 1 hour,$1.981924956 / 1 hour,$1.429996476 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.580522432 / 1 hour,$1.128944632 / 1 hour
-2026-10-28T06:25:00.044095+00:00,Warsaw (europe-central2),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:40.026282+00:00,Warsaw (europe-central2),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.142428056 / 1 hour,$1.692518138 / 1 hour,$1.221183958 / 1 hour,N/A,N/A,$0.194688 / 1 hour,$1.349729576 / 1 hour,$0.964092676 / 1 hour
-2026-10-28T06:25:00.044095+00:00,Warsaw (europe-central2),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:40.026282+00:00,Warsaw (europe-central2),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.017531584 / 1 hour,$3.963849912 / 1 hour,$2.859992952 / 1 hour,N/A,N/A,$0.456032 / 1 hour,$3.161044864 / 1 hour,$2.257889264 / 1 hour
-2026-10-28T06:25:00.044095+00:00,Warsaw (europe-central2),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:40.026282+00:00,Warsaw (europe-central2),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$10.035063168 / 1 hour,$7.927699824 / 1 hour,$5.719985904 / 1 hour,N/A,N/A,$0.912064 / 1 hour,$6.322089728 / 1 hour,$4.515778528 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.71157 / 1 hour,$0.5977188 / 1 hour,$0.4127106 / 1 hour,$0.32344 / 1 hour,-,$0.2809 / 1 hour,$0.49097 / 1 hour,$0.31309 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.42314 / 1 hour,$1.1954376 / 1 hour,$0.8254212 / 1 hour,$0.64688 / 1 hour,-,$0.5618 / 1 hour,$0.98194 / 1 hour,$0.62618 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.84628 / 1 hour,$2.3908752 / 1 hour,$1.6508424 / 1 hour,$1.29376 / 1 hour,-,$1.1236 / 1 hour,$1.96388 / 1 hour,$1.25236 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$4.949923 / 1 hour,$4.15793532 / 1 hour,$2.87095534 / 1 hour,$2.2500 / 1 hour,N/A,$1.95408 / 1 hour,$3.4155 / 1 hour,$2.177395 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$9.899846 / 1 hour,$8.31587064 / 1 hour,$5.74191068 / 1 hour,$4.500 / 1 hour,N/A,$3.90816 / 1 hour,$6.831 / 1 hour,$4.35479 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$19.799692 / 1 hour,$16.63174128 / 1 hour,$11.48382136 / 1 hour,$9 .0000/ 1 hour,N/A,$7.81632 / 1 hour,$13.662 / 1 hour,$8.70958 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$39.599384 / 1 hour,$33.26348256 / 1 hour,$22.96764272 / 1 hour,$18.0000 / 1 hour,N/A,$15.63264 / 1 hour,$27.324 / 1 hour,$17.41916 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.778293004 / 1 hour,$0.614851473 / 1 hour,$0.443627011 / 1 hour,N/A,N/A,$0.07006 / 1 hour,$0.490324616 / 1 hour,$0.350231796 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.939925708 / 1 hour,$0.742541309 / 1 hour,$0.535757651 / 1 hour,N/A,N/A,$0.08462 / 1 hour,$0.592153232 / 1 hour,$0.422966492 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.101558412 / 1 hour,$0.870231145 / 1 hour,$0.627888291 / 1 hour,N/A,N/A,$0.09918 / 1 hour,$0.693981848 / 1 hour,$0.495701188 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.263191116 / 1 hour,$0.997920981 / 1 hour,$0.720018931 / 1 hour,N/A,N/A,$0.11374 / 1 hour,$0.795810464 / 1 hour,$0.568435884 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.203116824 / 1 hour,$1.74046229 / 1 hour,$1.255776582 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.387963696 / 1 hour,$0.991402376 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.909721932 / 1 hour,$1.508680325 / 1 hour,$1.088541491 / 1 hour,N/A,N/A,$0.17198 / 1 hour,$1.203124928 / 1 hour,$0.859374668 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.406233648 / 1 hour,$3.48092458 / 1 hour,$2.511553164 / 1 hour,N/A,N/A,$0.39672 / 1 hour,$2.775927392 / 1 hour,$1.982804752 / 1 hour
-2026-10-28T06:25:01.814738+00:00,Finland (europe-north1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:41.822352+00:00,Finland (europe-north1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$8.812467296 / 1 hour,$6.96184916 / 1 hour,$5.023106328 / 1 hour,N/A,N/A,$0.79344 / 1 hour,$5.551854784 / 1 hour,$3.965609504 / 1 hour
-2026-10-28T06:25:03.592949+00:00,Madrid (europe-southwest1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:03.592949+00:00,Madrid (europe-southwest1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:03.592949+00:00,Madrid (europe-southwest1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:43.585436+00:00,Madrid (europe-southwest1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:43.585436+00:00,Madrid (europe-southwest1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:43.585436+00:00,Madrid (europe-southwest1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.834062084 / 1 hour,$0.658909041 / 1 hour,$0.475415391 / 1 hour,N/A,N/A,$0.075216 / 1 hour,$0.5254591 / 1 hour,$0.37532796 / 1 hour
-2026-10-28T06:25:03.592949+00:00,Madrid (europe-southwest1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:43.585436+00:00,Madrid (europe-southwest1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.007276668 / 1 hour,$0.795748557 / 1 hour,$0.574147707 / 1 hour,N/A,N/A,$0.090832 / 1 hour,$0.6345843 / 1 hour,$0.45327452 / 1 hour
-2026-10-28T06:25:03.592949+00:00,Madrid (europe-southwest1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:43.585436+00:00,Madrid (europe-southwest1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.180491252 / 1 hour,$0.932588073 / 1 hour,$0.672880023 / 1 hour,N/A,N/A,$0.106448 / 1 hour,$0.7437095 / 1 hour,$0.53122108 / 1 hour
-2026-10-28T06:25:03.592949+00:00,Madrid (europe-southwest1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:43.585436+00:00,Madrid (europe-southwest1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.353705836 / 1 hour,$1.069427589 / 1 hour,$0.771612339 / 1 hour,N/A,N/A,$0.122064 / 1 hour,$0.8528347 / 1 hour,$0.60916764 / 1 hour
-2026-10-28T06:25:03.592949+00:00,Madrid (europe-southwest1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:43.585436+00:00,Madrid (europe-southwest1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.360982504 / 1 hour,$1.865176146 / 1 hour,$1.345760046 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.487419 / 1 hour,$1.06244216 / 1 hour
-2026-10-28T06:25:03.592949+00:00,Madrid (europe-southwest1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:43.585436+00:00,Madrid (europe-southwest1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.046564172 / 1 hour,$1.616785653 / 1 hour,$1.166541603 / 1 hour,N/A,N/A,$0.184528 / 1 hour,$1.2893355 / 1 hour,$0.92095388 / 1 hour
-2026-10-28T06:25:03.592949+00:00,Madrid (europe-southwest1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:43.585436+00:00,Madrid (europe-southwest1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.721965008 / 1 hour,$3.730352292 / 1 hour,$2.691520092 / 1 hour,N/A,N/A,$0.425792 / 1 hour,$2.974838 / 1 hour,$2.12488432 / 1 hour
-2026-10-28T06:25:03.592949+00:00,Madrid (europe-southwest1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:43.585436+00:00,Madrid (europe-southwest1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.443930016 / 1 hour,$7.460704584 / 1 hour,$5.383040184 / 1 hour,N/A,N/A,$0.851584 / 1 hour,$5.949676 / 1 hour,$4.24976864 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.71157 / 1 hour,$0.5977188 / 1 hour,$0.4127106 / 1 hour,$0.32344 / 1 hour,-,$0.3003 / 1 hour,$0.49097 / 1 hour,$0.31309 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.42314 / 1 hour,$1.1954376 / 1 hour,$0.8254212 / 1 hour,$0.64688 / 1 hour,-,$0.6006 / 1 hour,$0.98194 / 1 hour,$0.62618 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.84628 / 1 hour,$2.3908752 / 1 hour,$1.6508424 / 1 hour,$1.29376 / 1 hour,-,$1.2012 / 1 hour,$1.96388 / 1 hour,$1.25236 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$4.949923 / 1 hour,$4.15793532 / 1 hour,$2.87095534 / 1 hour,$2.2500 / 1 hour,N/A,$2.08882 / 1 hour,$3.4155 / 1 hour,$2.177395 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$9.899846 / 1 hour,$8.31587064 / 1 hour,$5.74191068 / 1 hour,$4.500 / 1 hour,N/A,$4.17764 / 1 hour,$6.831 / 1 hour,$4.35479 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$19.799692 / 1 hour,$16.63174128 / 1 hour,$11.48382136 / 1 hour,$9 .0000/ 1 hour,N/A,$8.35528 / 1 hour,$13.662 / 1 hour,$8.70958 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$39.599384 / 1 hour,$33.26348256 / 1 hour,$22.96764272 / 1 hour,$18.0000 / 1 hour,N/A,$16.71056 / 1 hour,$27.324 / 1 hour,$17.41916 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.778293004 / 1 hour,$0.614851473 / 1 hour,$0.443627011 / 1 hour,N/A,N/A,$0.466984 / 1 hour,$0.490324616 / 1 hour,$0.350231796 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.939925708 / 1 hour,$0.742541309 / 1 hour,$0.535757651 / 1 hour,N/A,N/A,$0.563968 / 1 hour,$0.592153232 / 1 hour,$0.422966492 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.101558412 / 1 hour,$0.870231145 / 1 hour,$0.627888291 / 1 hour,N/A,N/A,$0.660952 / 1 hour,$0.693981848 / 1 hour,$0.495701188 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.263191116 / 1 hour,$0.997920981 / 1 hour,$0.720018931 / 1 hour,N/A,N/A,$0.757936 / 1 hour,$0.795810464 / 1 hour,$0.568435884 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.203116824 / 1 hour,$1.74046229 / 1 hour,$1.255776582 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.387963696 / 1 hour,$0.991402376 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.909721932 / 1 hour,$1.508680325 / 1 hour,$1.088541491 / 1 hour,N/A,N/A,$1.145872 / 1 hour,$1.203124928 / 1 hour,$0.859374668 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.406233648 / 1 hour,$3.48092458 / 1 hour,$2.511553164 / 1 hour,N/A,N/A,$2.643808 / 1 hour,$2.775927392 / 1 hour,$1.982804752 / 1 hour
-2026-10-28T06:25:05.348539+00:00,Belgium (europe-west1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:45.338363+00:00,Belgium (europe-west1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$8.812467296 / 1 hour,$6.96184916 / 1 hour,$5.023106328 / 1 hour,N/A,N/A,$5.287616 / 1 hour,$5.551854784 / 1 hour,$3.965609504 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.77626 / 1 hour,$0.6520584 / 1 hour,$0.4502308 / 1 hour,$0.32344 / 1 hour,-,$0.338 / 1 hour,$0.53561 / 1 hour,$0.34156 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.55252 / 1 hour,$1.3041168 / 1 hour,$0.9004616 / 1 hour,$0.64688 / 1 hour,-,$0.676 / 1 hour,$1.07122 / 1 hour,$0.68312 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.10504 / 1 hour,$2.6082336 / 1 hour,$1.8009232 / 1 hour,$1.29376 / 1 hour,-,$1.352 / 1 hour,$2.14244 / 1 hour,$1.36624 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$5.3991 / 1 hour,$4.535244 / 1 hour,$3.131478 / 1 hour,$2.2500 / 1 hour,N/A,$2.35146 / 1 hour,$3.726 / 1 hour,$2.37587 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$10.7982 / 1 hour,$9.070488 / 1 hour,$6.262956 / 1 hour,$4.500 / 1 hour,N/A,$4.70292 / 1 hour,$7.452 / 1 hour,$4.75174 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$21.5964 / 1 hour,$18.140976 / 1 hour,$12.525912 / 1 hour,$9 .0000/ 1 hour,N/A,$9.40584 / 1 hour,$14.904 / 1 hour,$9.50348 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$43.1928 / 1 hour,$36.281952 / 1 hour,$25.051824 / 1 hour,$18.0000 / 1 hour,N/A,$18.81168 / 1 hour,$29.808 / 1 hour,$19.00696 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$1.03546552 / 1 hour,$0.818017756 / 1 hour,$0.590215352 / 1 hour,N/A,N/A,$0.093804 / 1 hour,$0.652343208 / 1 hour,$0.465959476 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.20846904 / 1 hour,$0.954690532 / 1 hour,$0.688827364 / 1 hour,N/A,N/A,$0.109508 / 1 hour,$0.761335416 / 1 hour,$0.543811052 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.38147256 / 1 hour,$1.091363308 / 1 hour,$0.787439376 / 1 hour,N/A,N/A,$0.125212 / 1 hour,$0.870327624 / 1 hour,$0.621662628 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.55447608 / 1 hour,$1.228036084 / 1 hour,$0.886051388 / 1 hour,N/A,N/A,$0.140916 / 1 hour,$0.979319832 / 1 hour,$0.699514204 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.76294512 / 1 hour,$2.182726616 / 1 hour,$1.574878752 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.740655248 / 1 hour,$1.243325256 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.24649016 / 1 hour,$1.774727188 / 1 hour,$1.280499436 / 1 hour,N/A,N/A,$0.203732 / 1 hour,$1.415288664 / 1 hour,$1.010920508 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.52589024 / 1 hour,$4.365453232 / 1 hour,$3.149757504 / 1 hour,N/A,N/A,$0.500848 / 1 hour,$3.481310496 / 1 hour,$2.486650512 / 1 hour
-2026-10-28T06:25:07.098825+00:00,Berlin (europe-west10),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:47.093855+00:00,Berlin (europe-west10),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$11.05178048 / 1 hour,$8.730906464 / 1 hour,$6.299515008 / 1 hour,N/A,N/A,$1.001696 / 1 hour,$6.962620992 / 1 hour,$4.973301024 / 1 hour
-2026-10-28T06:25:08.850935+00:00,Turin (europe-west12),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:08.850935+00:00,Turin (europe-west12),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:08.850935+00:00,Turin (europe-west12),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:48.865370+00:00,Turin (europe-west12),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:48.865370+00:00,Turin (europe-west12),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:48.865370+00:00,Turin (europe-west12),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.911813604 / 1 hour,$0.720332745 / 1 hour,$0.519733751 / 1 hour,N/A,N/A,$0.08214 / 1 hour,$0.574442572 / 1 hour,$0.410316184 / 1 hour
-2026-10-28T06:25:08.850935+00:00,Turin (europe-west12),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:48.865370+00:00,Turin (europe-west12),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.101175308 / 1 hour,$0.869928489 / 1 hour,$0.627669919 / 1 hour,N/A,N/A,$0.09918 / 1 hour,$0.693740444 / 1 hour,$0.495528968 / 1 hour
-2026-10-28T06:25:08.850935+00:00,Turin (europe-west12),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:48.865370+00:00,Turin (europe-west12),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.290537012 / 1 hour,$1.019524233 / 1 hour,$0.735606087 / 1 hour,N/A,N/A,$0.11622 / 1 hour,$0.813038316 / 1 hour,$0.580741752 / 1 hour
-2026-10-28T06:25:08.850935+00:00,Turin (europe-west12),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:48.865370+00:00,Turin (europe-west12),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.479898716 / 1 hour,$1.169119977 / 1 hour,$0.843542255 / 1 hour,N/A,N/A,$0.13326 / 1 hour,$0.932336188 / 1 hour,$0.665954536 / 1 hour
-2026-10-28T06:25:08.850935+00:00,Turin (europe-west12),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:48.865370+00:00,Turin (europe-west12),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.581074024 / 1 hour,$2.039048466 / 1 hour,$1.471212174 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.626076632 / 1 hour,$1.161483504 / 1 hour
-2026-10-28T06:25:08.850935+00:00,Turin (europe-west12),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:48.865370+00:00,Turin (europe-west12),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.237345532 / 1 hour,$1.767502953 / 1 hour,$1.275286927 / 1 hour,N/A,N/A,$0.20142 / 1 hour,$1.409527676 / 1 hour,$1.006805672 / 1 hour
-2026-10-28T06:25:08.850935+00:00,Turin (europe-west12),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:48.865370+00:00,Turin (europe-west12),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.162148048 / 1 hour,$4.078096932 / 1 hour,$2.942424348 / 1 hour,N/A,N/A,$0.46488 / 1 hour,$3.252153264 / 1 hour,$2.322967008 / 1 hour
-2026-10-28T06:25:08.850935+00:00,Turin (europe-west12),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:48.865370+00:00,Turin (europe-west12),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$10.324296096 / 1 hour,$8.156193864 / 1 hour,$5.884848696 / 1 hour,N/A,N/A,$0.92976 / 1 hour,$6.504306528 / 1 hour,$4.645934016 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.77626 / 1 hour,$0.6520584 / 1 hour,$0.4502308 / 1 hour,$0.32344 / 1 hour,-,$0.321 / 1 hour,$0.53561 / 1 hour,$0.34156 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.55252 / 1 hour,$1.3041168 / 1 hour,$0.9004616 / 1 hour,$0.64688 / 1 hour,-,$0.642 / 1 hour,$1.07122 / 1 hour,$0.68312 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.10504 / 1 hour,$2.6082336 / 1 hour,$1.8009232 / 1 hour,$1.29376 / 1 hour,-,$1.284 / 1 hour,$2.14244 / 1 hour,$1.36624 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$5.399916 / 1 hour,$4.53592944 / 1 hour,$3.13195128 / 1 hour,$2.2500 / 1 hour,N/A,$2.23288 / 1 hour,$3.726 / 1 hour,$2.37534 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$10.799832 / 1 hour,$9.07185888 / 1 hour,$6.26390256 / 1 hour,$4.500 / 1 hour,N/A,$4.46576 / 1 hour,$7.452 / 1 hour,$4.75068 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$21.599664 / 1 hour,$18.14371776 / 1 hour,$12.52780512 / 1 hour,$9 .0000/ 1 hour,N/A,$8.93152 / 1 hour,$14.904 / 1 hour,$9.50136 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$43.199328 / 1 hour,$36.28743552 / 1 hour,$25.05561024 / 1 hour,$18.0000 / 1 hour,N/A,$17.86304 / 1 hour,$29.808 / 1 hour,$19.00272 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.804789303 / 1 hour,$0.635783551 / 1 hour,$0.458729911 / 1 hour,N/A,N/A,$0.48288 / 1 hour,$0.507017305 / 1 hour,$0.36215519 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.971924643 / 1 hour,$0.767820471 / 1 hour,$0.553997063 / 1 hour,N/A,N/A,$0.58316 / 1 hour,$0.612312573 / 1 hour,$0.437366106 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.139059983 / 1 hour,$0.899857391 / 1 hour,$0.649264215 / 1 hour,N/A,N/A,$0.68344 / 1 hour,$0.717607841 / 1 hour,$0.512577022 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.306195323 / 1 hour,$1.031894311 / 1 hour,$0.744531367 / 1 hour,N/A,N/A,$0.78372 / 1 hour,$0.822903109 / 1 hour,$0.587787938 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.278119966 / 1 hour,$1.799714782 / 1 hour,$1.29852843 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.435215682 / 1 hour,$1.025154044 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.974736683 / 1 hour,$1.560041991 / 1 hour,$1.125599975 / 1 hour,N/A,N/A,$1.18484 / 1 hour,$1.244084181 / 1 hour,$0.888631602 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.556239932 / 1 hour,$3.599429564 / 1 hour,$2.59705686 / 1 hour,N/A,N/A,$2.73376 / 1 hour,$2.870431364 / 1 hour,$2.050308088 / 1 hour
-2026-10-28T06:25:10.614569+00:00,London (europe-west2),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:50.630925+00:00,London (europe-west2),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.112479864 / 1 hour,$7.198859128 / 1 hour,$5.19411372 / 1 hour,N/A,N/A,$5.46752 / 1 hour,$5.740862728 / 1 hour,$4.100616176 / 1 hour
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.77626 / 1 hour,$0.6520584 / 1 hour,$0.4502308 / 1 hour,$0.32344 / 1 hour,-,$0.2951 / 1 hour,$0.53561 / 1 hour,$0.34156 / 1 hour
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.55252 / 1 hour,$1.3041168 / 1 hour,$0.9004616 / 1 hour,$0.64688 / 1 hour,-,$0.5902 / 1 hour,$1.07122 / 1 hour,$0.68312 / 1 hour
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.10504 / 1 hour,$2.6082336 / 1 hour,$1.8009232 / 1 hour,$1.29376 / 1 hour,-,$1.1804 / 1 hour,$2.14244 / 1 hour,$1.36624 / 1 hour
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.83302753 / 1 hour,$0.658091751 / 1 hour,$0.474825694 / 1 hour,N/A,N/A,$0.497304 / 1 hour,$0.524807383 / 1 hour,$0.374862395 / 1 hour
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.006027274 / 1 hour,$0.794761551 / 1 hour,$0.57343555 / 1 hour,N/A,N/A,$0.600608 / 1 hour,$0.633797219 / 1 hour,$0.452712295 / 1 hour
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.179027018 / 1 hour,$0.931431351 / 1 hour,$0.672045406 / 1 hour,N/A,N/A,$0.703912 / 1 hour,$0.742787055 / 1 hour,$0.530562195 / 1 hour
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.352026762 / 1 hour,$1.068101151 / 1 hour,$0.770655262 / 1 hour,N/A,N/A,$0.807216 / 1 hour,$0.851776891 / 1 hour,$0.608412095 / 1 hour
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.358054036 / 1 hour,$1.862862702 / 1 hour,$1.344090812 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.48557411 / 1 hour,$1.06112439 / 1 hour
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.044025738 / 1 hour,$1.614780351 / 1 hour,$1.165094686 / 1 hour,N/A,N/A,$1.220432 / 1 hour,$1.287736235 / 1 hour,$0.919811695 / 1 hour
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.716108072 / 1 hour,$3.725725404 / 1 hour,$2.688181624 / 1 hour,N/A,N/A,$2.815648 / 1 hour,$2.97114822 / 1 hour,$2.12224878 / 1 hour
-2026-10-28T06:25:12.405688+00:00,Frankfurt (europe-west3),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:52.392355+00:00,Frankfurt (europe-west3),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.432216144 / 1 hour,$7.451450808 / 1 hour,$5.376363248 / 1 hour,N/A,N/A,$5.631296 / 1 hour,$5.94229644 / 1 hour,$4.24449756 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.71157 / 1 hour,$0.5977188 / 1 hour,$0.4127106 / 1 hour,$0.32344 / 1 hour,-,$0.2954 / 1 hour,$0.49097 / 1 hour,$0.31309 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.42314 / 1 hour,$1.1954376 / 1 hour,$0.8254212 / 1 hour,$0.64688 / 1 hour,-,$0.5908 / 1 hour,$0.98194 / 1 hour,$0.62618 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.84628 / 1 hour,$2.3908752 / 1 hour,$1.6508424 / 1 hour,$1.29376 / 1 hour,-,$1.1816 / 1 hour,$1.96388 / 1 hour,$1.25236 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$4.949923 / 1 hour,$4.15793532 / 1 hour,$2.87095534 / 1 hour,$2.2500 / 1 hour,N/A,$2.05488 / 1 hour,$3.4155 / 1 hour,$2.177395 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$9.899846 / 1 hour,$8.31587064 / 1 hour,$5.74191068 / 1 hour,$4.500 / 1 hour,N/A,$4.10976 / 1 hour,$6.831 / 1 hour,$4.35479 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$19.799692 / 1 hour,$16.63174128 / 1 hour,$11.48382136 / 1 hour,$9 .0000/ 1 hour,N/A,$8.21952 / 1 hour,$13.662 / 1 hour,$8.70958 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$39.599384 / 1 hour,$33.26348256 / 1 hour,$22.96764272 / 1 hour,$18.0000 / 1 hour,N/A,$16.43904 / 1 hour,$27.324 / 1 hour,$17.41916 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.742916046 / 1 hour,$0.586903674 / 1 hour,$0.423462143 / 1 hour,N/A,N/A,$0.445676 / 1 hour,$0.468037131 / 1 hour,$0.334312176 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.897201806 / 1 hour,$0.708789422 / 1 hour,$0.511405023 / 1 hour,N/A,N/A,$0.538252 / 1 hour,$0.565237171 / 1 hour,$0.403740756 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.051487566 / 1 hour,$0.83067517 / 1 hour,$0.599347903 / 1 hour,N/A,N/A,$0.630828 / 1 hour,$0.662437211 / 1 hour,$0.473169336 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.205773326 / 1 hour,$0.952560918 / 1 hour,$0.687290783 / 1 hour,N/A,N/A,$0.723404 / 1 hour,$0.759637251 / 1 hour,$0.542597916 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.102975132 / 1 hour,$1.66135034 / 1 hour,$1.198695806 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.324874422 / 1 hour,$0.946338672 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.822916366 / 1 hour,$1.44010391 / 1 hour,$1.039062303 / 1 hour,N/A,N/A,$1.093708 / 1 hour,$1.148437411 / 1 hour,$0.820312236 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.205950264 / 1 hour,$3.32270068 / 1 hour,$2.397391612 / 1 hour,N/A,N/A,$2.523312 / 1 hour,$2.649748844 / 1 hour,$1.892677344 / 1 hour
-2026-10-28T06:25:14.166179+00:00,Netherlands (europe-west4),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:54.129918+00:00,Netherlands (europe-west4),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$8.411900528 / 1 hour,$6.64540136 / 1 hour,$4.794783224 / 1 hour,N/A,N/A,$5.046624 / 1 hour,$5.299497688 / 1 hour,$3.785354688 / 1 hour
-2026-10-28T06:25:15.910395+00:00,Zurich (europe-west6),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:15.910395+00:00,Zurich (europe-west6),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:15.910395+00:00,Zurich (europe-west6),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:55.882988+00:00,Zurich (europe-west6),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:55.882988+00:00,Zurich (europe-west6),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:55.882988+00:00,Zurich (europe-west6),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.975748092 / 1 hour,$0.770840993 / 1 hour,$0.556176407 / 1 hour,N/A,N/A,$0.58398 / 1 hour,$0.614712512 / 1 hour,$0.439083524 / 1 hour
-2026-10-28T06:25:15.910395+00:00,Zurich (europe-west6),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:55.882988+00:00,Zurich (europe-west6),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.168055884 / 1 hour,$0.922764149 / 1 hour,$0.665791843 / 1 hour,N/A,N/A,$0.69906 / 1 hour,$0.735857624 / 1 hour,$0.525618948 / 1 hour
-2026-10-28T06:25:15.910395+00:00,Zurich (europe-west6),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:55.882988+00:00,Zurich (europe-west6),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.360363676 / 1 hour,$1.074687305 / 1 hour,$0.775407279 / 1 hour,N/A,N/A,$0.81414 / 1 hour,$0.857002736 / 1 hour,$0.612154372 / 1 hour
-2026-10-28T06:25:15.910395+00:00,Zurich (europe-west6),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:55.882988+00:00,Zurich (europe-west6),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.552671468 / 1 hour,$1.226610461 / 1 hour,$0.885022715 / 1 hour,N/A,N/A,$0.92922 / 1 hour,$0.978147848 / 1 hour,$0.698689796 / 1 hour
-2026-10-28T06:25:15.910395+00:00,Zurich (europe-west6),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:55.882988+00:00,Zurich (europe-west6),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.720727352 / 1 hour,$2.14937461 / 1 hour,$1.550814558 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.714005472 / 1 hour,$1.224308744 / 1 hour
-2026-10-28T06:25:15.910395+00:00,Zurich (europe-west6),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:55.882988+00:00,Zurich (europe-west6),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.321902636 / 1 hour,$1.834303085 / 1 hour,$1.323484459 / 1 hour,N/A,N/A,$1.38954 / 1 hour,$1.462728296 / 1 hour,$1.044831492 / 1 hour
-2026-10-28T06:25:15.910395+00:00,Zurich (europe-west6),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:55.882988+00:00,Zurich (europe-west6),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.441454704 / 1 hour,$4.29874922 / 1 hour,$3.101629116 / 1 hour,N/A,N/A,$3.25656 / 1 hour,$3.428010944 / 1 hour,$2.448617488 / 1 hour
-2026-10-28T06:25:15.910395+00:00,Zurich (europe-west6),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:55.882988+00:00,Zurich (europe-west6),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$10.882909408 / 1 hour,$8.59749844 / 1 hour,$6.203258232 / 1 hour,N/A,N/A,$6.51312 / 1 hour,$6.856021888 / 1 hour,$4.897234976 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.77626 / 1 hour,$0.6520584 / 1 hour,$0.4502308 / 1 hour,$0.32344 / 1 hour,-,$0.4025 / 1 hour,$0.53561 / 1 hour,$0.34156 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.55252 / 1 hour,$1.3041168 / 1 hour,$0.9004616 / 1 hour,$0.64688 / 1 hour,-,$0.805 / 1 hour,$1.07122 / 1 hour,$0.68312 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.10504 / 1 hour,$2.6082336 / 1 hour,$1.8009232 / 1 hour,$1.29376 / 1 hour,-,$1.61 / 1 hour,$2.14244 / 1 hour,$1.36624 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$5.399916 / 1 hour,$4.53592944 / 1 hour,$3.13195128 / 1 hour,$2.2500 / 1 hour,N/A,$2.80026 / 1 hour,$3.726 / 1 hour,$2.37534 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$10.799832 / 1 hour,$9.07185888 / 1 hour,$6.26390256 / 1 hour,$4.500 / 1 hour,N/A,$5.60052 / 1 hour,$7.452 / 1 hour,$4.75068 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$21.599664 / 1 hour,$18.14371776 / 1 hour,$12.52780512 / 1 hour,$9 .0000/ 1 hour,N/A,$11.20104 / 1 hour,$14.904 / 1 hour,$9.50136 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$43.199328 / 1 hour,$36.28743552 / 1 hour,$25.05561024 / 1 hour,$18.0000 / 1 hour,N/A,$22.40208 / 1 hour,$29.808 / 1 hour,$19.00272 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.81992546 / 1 hour,$0.647741121 / 1 hour,$0.467357515 / 1 hour,N/A,N/A,$0.073976 / 1 hour,$0.516553024 / 1 hour,$0.368966448 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.99020422 / 1 hour,$0.782261349 / 1 hour,$0.564416411 / 1 hour,N/A,N/A,$0.089352 / 1 hour,$0.623828648 / 1 hour,$0.445591896 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.16048298 / 1 hour,$0.916781577 / 1 hour,$0.661475307 / 1 hour,N/A,N/A,$0.104728 / 1 hour,$0.731104272 / 1 hour,$0.522217344 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.33076174 / 1 hour,$1.051301805 / 1 hour,$0.758534203 / 1 hour,N/A,N/A,$0.120104 / 1 hour,$0.838379896 / 1 hour,$0.598842792 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.32096596 / 1 hour,$1.833563154 / 1 hour,$1.322950614 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.462208544 / 1 hour,$1.044434688 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.01187678 / 1 hour,$1.589382717 / 1 hour,$1.146769787 / 1 hour,N/A,N/A,$0.181608 / 1 hour,$1.267482392 / 1 hour,$0.905344584 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.64193192 / 1 hour,$3.667126308 / 1 hour,$2.645901228 / 1 hour,N/A,N/A,$0.418912 / 1 hour,$2.924417088 / 1 hour,$2.088869376 / 1 hour
-2026-10-28T06:25:17.669035+00:00,Milan (europe-west8),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:57.634357+00:00,Milan (europe-west8),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.28386384 / 1 hour,$7.334252616 / 1 hour,$5.291802456 / 1 hour,N/A,N/A,$0.837824 / 1 hour,$5.848834176 / 1 hour,$4.177738752 / 1 hour
-2026-10-28T06:25:19.467707+00:00,Paris (europe-west9),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:19.467707+00:00,Paris (europe-west9),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:19.467707+00:00,Paris (europe-west9),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:59.383654+00:00,Paris (europe-west9),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:35:59.383654+00:00,Paris (europe-west9),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:35:59.383654+00:00,Paris (europe-west9),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.81992546 / 1 hour,$0.647741121 / 1 hour,$0.467357515 / 1 hour,N/A,N/A,$0.073836 / 1 hour,$0.516553024 / 1 hour,$0.368966448 / 1 hour
-2026-10-28T06:25:19.467707+00:00,Paris (europe-west9),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:59.383654+00:00,Paris (europe-west9),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.99020422 / 1 hour,$0.782261349 / 1 hour,$0.564416411 / 1 hour,N/A,N/A,$0.089172 / 1 hour,$0.623828648 / 1 hour,$0.445591896 / 1 hour
-2026-10-28T06:25:19.467707+00:00,Paris (europe-west9),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:59.383654+00:00,Paris (europe-west9),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.16048298 / 1 hour,$0.916781577 / 1 hour,$0.661475307 / 1 hour,N/A,N/A,$0.104508 / 1 hour,$0.731104272 / 1 hour,$0.522217344 / 1 hour
-2026-10-28T06:25:19.467707+00:00,Paris (europe-west9),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:59.383654+00:00,Paris (europe-west9),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.33076174 / 1 hour,$1.051301805 / 1 hour,$0.758534203 / 1 hour,N/A,N/A,$0.119844 / 1 hour,$0.838379896 / 1 hour,$0.598842792 / 1 hour
-2026-10-28T06:25:19.467707+00:00,Paris (europe-west9),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:35:59.383654+00:00,Paris (europe-west9),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.32096596 / 1 hour,$1.833563154 / 1 hour,$1.322950614 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.462208544 / 1 hour,$1.044434688 / 1 hour
-2026-10-28T06:25:19.467707+00:00,Paris (europe-west9),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:35:59.383654+00:00,Paris (europe-west9),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.01187678 / 1 hour,$1.589382717 / 1 hour,$1.146769787 / 1 hour,N/A,N/A,$0.181188 / 1 hour,$1.267482392 / 1 hour,$0.905344584 / 1 hour
-2026-10-28T06:25:19.467707+00:00,Paris (europe-west9),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:35:59.383654+00:00,Paris (europe-west9),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.64193192 / 1 hour,$3.667126308 / 1 hour,$2.645901228 / 1 hour,N/A,N/A,$0.418032 / 1 hour,$2.924417088 / 1 hour,$2.088869376 / 1 hour
-2026-10-28T06:25:19.467707+00:00,Paris (europe-west9),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:35:59.383654+00:00,Paris (europe-west9),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.28386384 / 1 hour,$7.334252616 / 1 hour,$5.291802456 / 1 hour,N/A,N/A,$0.836064 / 1 hour,$5.848834176 / 1 hour,$4.177738752 / 1 hour
-2026-10-28T06:25:21.242566+00:00,Doha (me-central1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:21.242566+00:00,Doha (me-central1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:21.242566+00:00,Doha (me-central1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:01.136906+00:00,Doha (me-central1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:01.136906+00:00,Doha (me-central1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:01.136906+00:00,Doha (me-central1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.85880122 / 1 hour,$0.678452971 / 1 hour,$0.489516705 / 1 hour,N/A,N/A,$0.07724 / 1 hour,$0.541044776 / 1 hour,$0.386460568 / 1 hour
-2026-10-28T06:25:21.242566+00:00,Doha (me-central1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:01.136906+00:00,Doha (me-central1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.03715354 / 1 hour,$0.819351311 / 1 hour,$0.591177537 / 1 hour,N/A,N/A,$0.09328 / 1 hour,$0.653406752 / 1 hour,$0.466719136 / 1 hour
-2026-10-28T06:25:21.242566+00:00,Doha (me-central1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:01.136906+00:00,Doha (me-central1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.21550586 / 1 hour,$0.960249651 / 1 hour,$0.692838369 / 1 hour,N/A,N/A,$0.10932 / 1 hour,$0.765768728 / 1 hour,$0.546977704 / 1 hour
-2026-10-28T06:25:21.242566+00:00,Doha (me-central1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:01.136906+00:00,Doha (me-central1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.39385818 / 1 hour,$1.101147991 / 1 hour,$0.794499201 / 1 hour,N/A,N/A,$0.12536 / 1 hour,$0.878130704 / 1 hour,$0.627236272 / 1 hour
-2026-10-28T06:25:21.242566+00:00,Doha (me-central1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:01.136906+00:00,Doha (me-central1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.43101172 / 1 hour,$1.920499302 / 1 hour,$1.385676738 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.531537456 / 1 hour,$1.093955408 / 1 hour
-2026-10-28T06:25:21.242566+00:00,Doha (me-central1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:01.136906+00:00,Doha (me-central1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.10726746 / 1 hour,$1.664741351 / 1 hour,$1.201142529 / 1 hour,N/A,N/A,$0.18952 / 1 hour,$1.327578608 / 1 hour,$0.948270544 / 1 hour
-2026-10-28T06:25:21.242566+00:00,Doha (me-central1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:01.136906+00:00,Doha (me-central1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.86202344 / 1 hour,$3.840998604 / 1 hour,$2.771353476 / 1 hour,N/A,N/A,$0.43728 / 1 hour,$3.063074912 / 1 hour,$2.187910816 / 1 hour
-2026-10-28T06:25:21.242566+00:00,Doha (me-central1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:01.136906+00:00,Doha (me-central1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.72404688 / 1 hour,$7.681997208 / 1 hour,$5.542706952 / 1 hour,N/A,N/A,$0.87456 / 1 hour,$6.126149824 / 1 hour,$4.375821632 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.77626 / 1 hour,$0.6520584 / 1 hour,$0.4502308 / 1 hour,$0.32344 / 1 hour,-,$0.3503 / 1 hour,$0.53561 / 1 hour,$0.34156 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.55252 / 1 hour,$1.3041168 / 1 hour,$0.9004616 / 1 hour,$0.64688 / 1 hour,-,$0.7006 / 1 hour,$1.07122 / 1 hour,$0.68312 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$3.10504 / 1 hour,$2.6082336 / 1 hour,$1.8009232 / 1 hour,$1.29376 / 1 hour,-,$1.4012 / 1 hour,$2.14244 / 1 hour,$1.36624 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$5.3991 / 1 hour,$4.535244 / 1 hour,$3.131478 / 1 hour,$2.2500 / 1 hour,N/A,$2.4369 / 1 hour,$3.726 / 1 hour,$2.37587 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$10.7982 / 1 hour,$9.070488 / 1 hour,$6.262956 / 1 hour,$4.500 / 1 hour,N/A,$4.8738 / 1 hour,$7.452 / 1 hour,$4.75174 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$21.5964 / 1 hour,$18.140976 / 1 hour,$12.525912 / 1 hour,$9 .0000/ 1 hour,N/A,$9.7476 / 1 hour,$14.904 / 1 hour,$9.50348 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$43.1928 / 1 hour,$36.281952 / 1 hour,$25.051824 / 1 hour,$18.0000 / 1 hour,N/A,$19.4952 / 1 hour,$29.808 / 1 hour,$19.00696 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$1.130931648 / 1 hour,$0.893436 / 1 hour,$0.644631036 / 1 hour,N/A,N/A,$0.669976 / 1 hour,$0.712486968 / 1 hour,$0.508919248 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.365798896 / 1 hour,$1.078981124 / 1 hour,$0.778505364 / 1 hour,N/A,N/A,$0.809152 / 1 hour,$0.860453336 / 1 hour,$0.614609496 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.600666144 / 1 hour,$1.264526248 / 1 hour,$0.912379692 / 1 hour,N/A,N/A,$0.948328 / 1 hour,$1.008419704 / 1 hour,$0.720299744 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.835533392 / 1 hour,$1.450071372 / 1 hour,$1.04625402 / 1 hour,N/A,N/A,$1.087504 / 1 hour,$1.156386072 / 1 hour,$0.825989992 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$3.201332288 / 1 hour,$2.529052496 / 1 hour,$1.824759384 / 1 hour,N/A,N/A,g2-standard-24-spot,$2.016839408 / 1 hour,$1.440599488 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.775002384 / 1 hour,$2.192251868 / 1 hour,$1.581751332 / 1 hour,N/A,N/A,$1.644208 / 1 hour,$1.748251544 / 1 hour,$1.248750984 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$6.402664576 / 1 hour,$5.058104992 / 1 hour,$3.649518768 / 1 hour,N/A,N/A,$3.793312 / 1 hour,$4.033678816 / 1 hour,$2.881198976 / 1 hour
-2026-10-28T06:25:22.995378+00:00,Dammam (me-central2),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:02.946538+00:00,Dammam (me-central2),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$12.805329152 / 1 hour,$10.116209984 / 1 hour,$7.299037536 / 1 hour,N/A,N/A,$7.586624 / 1 hour,$8.067357632 / 1 hour,$5.762397952 / 1 hour
-2026-10-28T06:25:24.821931+00:00,Tel Aviv (me-west1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:24.821931+00:00,Tel Aviv (me-west1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:24.821931+00:00,Tel Aviv (me-west1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:04.742823+00:00,Tel Aviv (me-west1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:04.742823+00:00,Tel Aviv (me-west1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:04.742823+00:00,Tel Aviv (me-west1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.777515508 / 1 hour,$0.614237245 / 1 hour,$0.443183839 / 1 hour,N/A,N/A,$0.0702 / 1 hour,$0.489834772 / 1 hour,$0.349881972 / 1 hour
-2026-10-28T06:25:24.821931+00:00,Tel Aviv (me-west1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:04.742823+00:00,Tel Aviv (me-west1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.938986716 / 1 hour,$0.741799493 / 1 hour,$0.535222427 / 1 hour,N/A,N/A,$0.0848 / 1 hour,$0.591561644 / 1 hour,$0.422544044 / 1 hour
-2026-10-28T06:25:24.821931+00:00,Tel Aviv (me-west1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:04.742823+00:00,Tel Aviv (me-west1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.100457924 / 1 hour,$0.869361741 / 1 hour,$0.627261015 / 1 hour,N/A,N/A,$0.0994 / 1 hour,$0.693288516 / 1 hour,$0.495206116 / 1 hour
-2026-10-28T06:25:24.821931+00:00,Tel Aviv (me-west1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:04.742823+00:00,Tel Aviv (me-west1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.261929132 / 1 hour,$0.996923989 / 1 hour,$0.719299603 / 1 hour,N/A,N/A,$0.114 / 1 hour,$0.795015388 / 1 hour,$0.567868188 / 1 hour
-2026-10-28T06:25:24.821931+00:00,Tel Aviv (me-west1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:04.742823+00:00,Tel Aviv (me-west1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.200915848 / 1 hour,$1.738723482 / 1 hour,$1.25452203 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.386577032 / 1 hour,$0.990412232 / 1 hour
-2026-10-28T06:25:24.821931+00:00,Tel Aviv (me-west1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:04.742823+00:00,Tel Aviv (me-west1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.907813964 / 1 hour,$1.507172981 / 1 hour,$1.087453955 / 1 hour,N/A,N/A,$0.1724 / 1 hour,$1.201922876 / 1 hour,$0.858516476 / 1 hour
-2026-10-28T06:25:24.821931+00:00,Tel Aviv (me-west1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:04.742823+00:00,Tel Aviv (me-west1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.401831696 / 1 hour,$3.477446964 / 1 hour,$2.50904406 / 1 hour,N/A,N/A,$0.3976 / 1 hour,$2.773154064 / 1 hour,$1.980824464 / 1 hour
-2026-10-28T06:25:24.821931+00:00,Tel Aviv (me-west1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:04.742823+00:00,Tel Aviv (me-west1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$8.803663392 / 1 hour,$6.954893928 / 1 hour,$5.01808812 / 1 hour,N/A,N/A,$0.7952 / 1 hour,$5.546308128 / 1 hour,$3.961648928 / 1 hour
-2026-10-28T06:25:26.576394+00:00,Montreal (northamerica-northeast1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:26.576394+00:00,Montreal (northamerica-northeast1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:26.576394+00:00,Montreal (northamerica-northeast1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:06.483604+00:00,Montreal (northamerica-northeast1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:06.483604+00:00,Montreal (northamerica-northeast1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:06.483604+00:00,Montreal (northamerica-northeast1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.778293004 / 1 hour,$0.614851473 / 1 hour,$0.443627011 / 1 hour,N/A,N/A,$0.46344 / 1 hour,$0.490324616 / 1 hour,$0.350231796 / 1 hour
-2026-10-28T06:25:26.576394+00:00,Montreal (northamerica-northeast1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:06.483604+00:00,Montreal (northamerica-northeast1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.939925708 / 1 hour,$0.742541309 / 1 hour,$0.535757651 / 1 hour,N/A,N/A,$0.55968 / 1 hour,$0.592153232 / 1 hour,$0.422966492 / 1 hour
-2026-10-28T06:25:26.576394+00:00,Montreal (northamerica-northeast1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:06.483604+00:00,Montreal (northamerica-northeast1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.101558412 / 1 hour,$0.870231145 / 1 hour,$0.627888291 / 1 hour,N/A,N/A,$0.65592 / 1 hour,$0.693981848 / 1 hour,$0.495701188 / 1 hour
-2026-10-28T06:25:26.576394+00:00,Montreal (northamerica-northeast1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:06.483604+00:00,Montreal (northamerica-northeast1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.263191116 / 1 hour,$0.997920981 / 1 hour,$0.720018931 / 1 hour,N/A,N/A,$0.75216 / 1 hour,$0.795810464 / 1 hour,$0.568435884 / 1 hour
-2026-10-28T06:25:26.576394+00:00,Montreal (northamerica-northeast1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:06.483604+00:00,Montreal (northamerica-northeast1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.203116824 / 1 hour,$1.74046229 / 1 hour,$1.255776582 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.387963696 / 1 hour,$0.991402376 / 1 hour
-2026-10-28T06:25:26.576394+00:00,Montreal (northamerica-northeast1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:06.483604+00:00,Montreal (northamerica-northeast1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.909721932 / 1 hour,$1.508680325 / 1 hour,$1.088541491 / 1 hour,N/A,N/A,$1.13712 / 1 hour,$1.203124928 / 1 hour,$0.859374668 / 1 hour
-2026-10-28T06:25:26.576394+00:00,Montreal (northamerica-northeast1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:06.483604+00:00,Montreal (northamerica-northeast1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.406233648 / 1 hour,$3.48092458 / 1 hour,$2.511553164 / 1 hour,N/A,N/A,$2.62368 / 1 hour,$2.775927392 / 1 hour,$1.982804752 / 1 hour
-2026-10-28T06:25:26.576394+00:00,Montreal (northamerica-northeast1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:06.483604+00:00,Montreal (northamerica-northeast1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$8.812467296 / 1 hour,$6.96184916 / 1 hour,$5.023106328 / 1 hour,N/A,N/A,$5.24736 / 1 hour,$5.551854784 / 1 hour,$3.965609504 / 1 hour
-2026-10-28T06:25:28.315555+00:00,Toronto (northamerica-northeast2),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:28.315555+00:00,Toronto (northamerica-northeast2),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:28.315555+00:00,Toronto (northamerica-northeast2),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:08.259925+00:00,Toronto (northamerica-northeast2),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:08.259925+00:00,Toronto (northamerica-northeast2),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:08.259925+00:00,Toronto (northamerica-northeast2),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.778293004 / 1 hour,$0.614851473 / 1 hour,$0.443627011 / 1 hour,N/A,N/A,$0.46448 / 1 hour,$0.490324616 / 1 hour,$0.350231796 / 1 hour
-2026-10-28T06:25:28.315555+00:00,Toronto (northamerica-northeast2),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:08.259925+00:00,Toronto (northamerica-northeast2),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.939925708 / 1 hour,$0.742541309 / 1 hour,$0.535757651 / 1 hour,N/A,N/A,$0.56096 / 1 hour,$0.592153232 / 1 hour,$0.422966492 / 1 hour
-2026-10-28T06:25:28.315555+00:00,Toronto (northamerica-northeast2),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:08.259925+00:00,Toronto (northamerica-northeast2),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.101558412 / 1 hour,$0.870231145 / 1 hour,$0.627888291 / 1 hour,N/A,N/A,$0.65744 / 1 hour,$0.693981848 / 1 hour,$0.495701188 / 1 hour
-2026-10-28T06:25:28.315555+00:00,Toronto (northamerica-northeast2),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:08.259925+00:00,Toronto (northamerica-northeast2),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.263191116 / 1 hour,$0.997920981 / 1 hour,$0.720018931 / 1 hour,N/A,N/A,$0.75392 / 1 hour,$0.795810464 / 1 hour,$0.568435884 / 1 hour
-2026-10-28T06:25:28.315555+00:00,Toronto (northamerica-northeast2),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:08.259925+00:00,Toronto (northamerica-northeast2),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.203116824 / 1 hour,$1.74046229 / 1 hour,$1.255776582 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.387963696 / 1 hour,$0.991402376 / 1 hour
-2026-10-28T06:25:28.315555+00:00,Toronto (northamerica-northeast2),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:08.259925+00:00,Toronto (northamerica-northeast2),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.909721932 / 1 hour,$1.508680325 / 1 hour,$1.088541491 / 1 hour,N/A,N/A,$1.13984 / 1 hour,$1.203124928 / 1 hour,$0.859374668 / 1 hour
-2026-10-28T06:25:28.315555+00:00,Toronto (northamerica-northeast2),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:08.259925+00:00,Toronto (northamerica-northeast2),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.406233648 / 1 hour,$3.48092458 / 1 hour,$2.511553164 / 1 hour,N/A,N/A,$2.62976 / 1 hour,$2.775927392 / 1 hour,$1.982804752 / 1 hour
-2026-10-28T06:25:28.315555+00:00,Toronto (northamerica-northeast2),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:08.259925+00:00,Toronto (northamerica-northeast2),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$8.812467296 / 1 hour,$6.96184916 / 1 hour,$5.023106328 / 1 hour,N/A,N/A,$5.25952 / 1 hour,$5.551854784 / 1 hour,$3.965609504 / 1 hour
-2026-10-28T06:25:30.069797+00:00,Sao Paulo (southamerica-east1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:30.069797+00:00,Sao Paulo (southamerica-east1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:30.069797+00:00,Sao Paulo (southamerica-east1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+
+vCPUs: 48
+
+Memory: 180GiB",$6.4341 / 1 hour,$5.404644 / 1 hour,$3.731778 / 1 hour,$2.2500 / 1 hour,N/A,$2.57503 / 1 hour,$4.43976 / 1 hour,$2.8305444 / 1 hour
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+
+vCPUs: 96
+
+Memory: 360GiB",$12.8682 / 1 hour,$10.809288 / 1 hour,$7.463556 / 1 hour,$4.500 / 1 hour,N/A,$5.15006 / 1 hour,$8.87952 / 1 hour,$5.6610888 / 1 hour
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+
+vCPUs: 192
+
+Memory: 720GiB",$25.7364 / 1 hour,$21.618576 / 1 hour,$14.927112 / 1 hour,$9 .0000/ 1 hour,N/A,$10.30012 / 1 hour,$17.75904 / 1 hour,$11.3221776 / 1 hour
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+
+vCPUs: 384
+
+Memory: 1440GiB",$51.4728 / 1 hour,$43.237152 / 1 hour,$29.854224 / 1 hour,$18.0000 / 1 hour,N/A,$20.60024 / 1 hour,$35.51808 / 1 hour,$22.6443552 / 1 hour
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$1.122378956 / 1 hour,$0.886679377 / 1 hour,$0.639756011 / 1 hour,N/A,N/A,$0.100968 / 1 hour,$0.707098752 / 1 hour,$0.505070568 / 1 hour
-2026-10-28T06:25:30.069797+00:00,Sao Paulo (southamerica-east1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.355470012 / 1 hour,$1.070821313 / 1 hour,$0.772617919 / 1 hour,N/A,N/A,$0.121936 / 1 hour,$0.853946104 / 1 hour,$0.609961536 / 1 hour
-2026-10-28T06:25:30.069797+00:00,Sao Paulo (southamerica-east1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.588561068 / 1 hour,$1.254963249 / 1 hour,$0.905479827 / 1 hour,N/A,N/A,$0.142904 / 1 hour,$1.000793456 / 1 hour,$0.714852504 / 1 hour
-2026-10-28T06:25:30.069797+00:00,Sao Paulo (southamerica-east1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.821652124 / 1 hour,$1.439105185 / 1 hour,$1.038341735 / 1 hour,N/A,N/A,$0.163872 / 1 hour,$1.147640808 / 1 hour,$0.819743472 / 1 hour
-2026-10-28T06:25:30.069797+00:00,Sao Paulo (southamerica-east1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$3.177122136 / 1 hour,$2.509926498 / 1 hour,$1.810959654 / 1 hour,N/A,N/A,g2-standard-24-spot,$2.001586912 / 1 hour,$1.429705008 / 1 hour
-2026-10-28T06:25:30.069797+00:00,Sao Paulo (southamerica-east1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.754016348 / 1 hour,$2.175672929 / 1 hour,$1.569789367 / 1 hour,N/A,N/A,$0.247744 / 1 hour,$1.735030216 / 1 hour,$1.239307344 / 1 hour
-2026-10-28T06:25:30.069797+00:00,Sao Paulo (southamerica-east1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$6.354244272 / 1 hour,$5.019852996 / 1 hour,$3.621919308 / 1 hour,N/A,N/A,$0.571616 / 1 hour,$4.003173824 / 1 hour,$2.859410016 / 1 hour
-2026-10-28T06:25:30.069797+00:00,Sao Paulo (southamerica-east1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:10.030936+00:00,Sao Paulo (southamerica-east1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$12.708488544 / 1 hour,$10.039705992 / 1 hour,$7.243838616 / 1 hour,N/A,N/A,$1.143232 / 1 hour,$8.006347648 / 1 hour,$5.718820032 / 1 hour
-2026-10-28T06:25:31.826718+00:00,Santiago (southamerica-west1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:31.826718+00:00,Santiago (southamerica-west1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:31.826718+00:00,Santiago (southamerica-west1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:11.795791+00:00,Santiago (southamerica-west1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:11.795791+00:00,Santiago (southamerica-west1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:11.795791+00:00,Santiago (southamerica-west1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$1.010770076 / 1 hour,$0.798508357 / 1 hour,$0.576138943 / 1 hour,N/A,N/A,$0.091012 / 1 hour,$0.636785228 / 1 hour,$0.454846548 / 1 hour
-2026-10-28T06:25:31.826718+00:00,Santiago (southamerica-west1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:11.795791+00:00,Santiago (southamerica-west1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.220682652 / 1 hour,$0.964339289 / 1 hour,$0.695789111 / 1 hour,N/A,N/A,$0.109924 / 1 hour,$0.769030156 / 1 hour,$0.549307196 / 1 hour
-2026-10-28T06:25:31.826718+00:00,Santiago (southamerica-west1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:11.795791+00:00,Santiago (southamerica-west1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.430595228 / 1 hour,$1.130170221 / 1 hour,$0.815439279 / 1 hour,N/A,N/A,$0.128836 / 1 hour,$0.901275084 / 1 hour,$0.643767844 / 1 hour
-2026-10-28T06:25:31.826718+00:00,Santiago (southamerica-west1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:11.795791+00:00,Santiago (southamerica-west1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.640507804 / 1 hour,$1.296001153 / 1 hour,$0.935089447 / 1 hour,N/A,N/A,$0.147748 / 1 hour,$1.033520012 / 1 hour,$0.738228492 / 1 hour
-2026-10-28T06:25:31.826718+00:00,Santiago (southamerica-west1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:11.795791+00:00,Santiago (southamerica-west1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.861190456 / 1 hour,$2.260340442 / 1 hour,$1.630878558 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.802550168 / 1 hour,$1.287535688 / 1 hour
-2026-10-28T06:25:31.826718+00:00,Santiago (southamerica-west1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:11.795791+00:00,Santiago (southamerica-west1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.480158108 / 1 hour,$1.959324881 / 1 hour,$1.413690119 / 1 hour,N/A,N/A,$0.223396 / 1 hour,$1.562499724 / 1 hour,$1.116071084 / 1 hour
-2026-10-28T06:25:31.826718+00:00,Santiago (southamerica-west1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:11.795791+00:00,Santiago (southamerica-west1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$5.722380912 / 1 hour,$4.520680884 / 1 hour,$3.261757116 / 1 hour,N/A,N/A,$0.515344 / 1 hour,$3.605100336 / 1 hour,$2.575071376 / 1 hour
-2026-10-28T06:25:31.826718+00:00,Santiago (southamerica-west1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:11.795791+00:00,Santiago (southamerica-west1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$11.444761824 / 1 hour,$9.041361768 / 1 hour,$6.523514232 / 1 hour,N/A,N/A,$1.030688 / 1 hour,$7.210200672 / 1 hour,$5.150142752 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.64688 / 1 hour,$0.5433792 / 1 hour,$0.3751904 / 1 hour,$0.32344 / 1 hour,-,$0.2272 / 1 hour,$0.44634 / 1 hour,$0.28463 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.29376 / 1 hour,$1.0867584 / 1 hour,$0.7503808 / 1 hour,$0.64688 / 1 hour,-,$0.4544 / 1 hour,$0.89268 / 1 hour,$0.56926 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.58752 / 1 hour,$2.1735168 / 1 hour,$1.5007616 / 1 hour,$1.29376 / 1 hour,-,$0.9088 / 1 hour,$1.78536 / 1 hour,$1.13852 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$4.49993 / 1 hour,$3.7799412 / 1 hour,$2.6099594 / 1 hour,$2.2500 / 1 hour,N/A,$1.58034 / 1 hour,$3.105 / 1 hour,$1.97945 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$8.99986 / 1 hour,$7.5598824 / 1 hour,$5.2199188 / 1 hour,$4.500 / 1 hour,N/A,$3.16068 / 1 hour,$6.21 / 1 hour,$3.9589 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$17.99972 / 1 hour,$15.1197648 / 1 hour,$10.4398376 / 1 hour,$9 .0000/ 1 hour,N/A,$6.32136 / 1 hour,$12.42 / 1 hour,$7.9178 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$35.99944 / 1 hour,$30.2395296 / 1 hour,$20.8796752 / 1 hour,$18.0000 / 1 hour,N/A,$12.64272 / 1 hour,$24.84 / 1 hour,$15.8356 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.706832276 / 1 hour,$0.558397485 / 1 hour,$0.402894397 / 1 hour,N/A,N/A,$0.423016 / 1 hour,$0.445304335 / 1 hour,$0.318074524 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.853624312 / 1 hour,$0.674363181 / 1 hour,$0.486565857 / 1 hour,N/A,N/A,$0.510832 / 1 hour,$0.537783319 / 1 hour,$0.38413094 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.000416348 / 1 hour,$0.790328877 / 1 hour,$0.570237317 / 1 hour,N/A,N/A,$0.598648 / 1 hour,$0.630262303 / 1 hour,$0.450187356 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.147208384 / 1 hour,$0.906294573 / 1 hour,$0.653908777 / 1 hour,N/A,N/A,$0.686464 / 1 hour,$0.722741287 / 1 hour,$0.516243772 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.000832696 / 1 hour,$1.580657754 / 1 hour,$1.140474634 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.260524606 / 1 hour,$0.900374712 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.734376528 / 1 hour,$1.370157357 / 1 hour,$0.988594617 / 1 hour,N/A,N/A,$1.037728 / 1 hour,$1.092657223 / 1 hour,$0.780469436 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.001665392 / 1 hour,$3.161315508 / 1 hour,$2.280949268 / 1 hour,N/A,N/A,$2.394592 / 1 hour,$2.521049212 / 1 hour,$1.800749424 / 1 hour
-2026-10-28T06:25:33.581261+00:00,Iowa (us-central1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:13.563340+00:00,Iowa (us-central1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$8.003330784 / 1 hour,$6.322631016 / 1 hour,$4.561898536 / 1 hour,N/A,N/A,$4.789184 / 1 hour,$5.042098424 / 1 hour,$3.601498848 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.64688 / 1 hour,$0.5433792 / 1 hour,$0.3751904 / 1 hour,$0.32344 / 1 hour,-,$0.2163 / 1 hour,$0.44634 / 1 hour,$0.28463 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.29376 / 1 hour,$1.0867584 / 1 hour,$0.7503808 / 1 hour,$0.64688 / 1 hour,-,$0.4326 / 1 hour,$0.89268 / 1 hour,$0.56926 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.58752 / 1 hour,$2.1735168 / 1 hour,$1.5007616 / 1 hour,$1.29376 / 1 hour,-,$0.8652 / 1 hour,$1.78536 / 1 hour,$1.13852 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$4.49993 / 1 hour,$3.7799412 / 1 hour,$2.6099594 / 1 hour,$2.2500 / 1 hour,N/A,$1.5049 / 1 hour,$3.105 / 1 hour,$1.97945 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$8.99986 / 1 hour,$7.5598824 / 1 hour,$5.2199188 / 1 hour,$4.500 / 1 hour,N/A,$3.0098 / 1 hour,$6.21 / 1 hour,$3.9589 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$17.99972 / 1 hour,$15.1197648 / 1 hour,$10.4398376 / 1 hour,$9 .0000/ 1 hour,N/A,$6.0196 / 1 hour,$12.42 / 1 hour,$7.9178 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$35.99944 / 1 hour,$30.2395296 / 1 hour,$20.8796752 / 1 hour,$18.0000 / 1 hour,N/A,$12.0392 / 1 hour,$24.84 / 1 hour,$15.8356 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.706832276 / 1 hour,$0.558397485 / 1 hour,$0.402894397 / 1 hour,N/A,N/A,$0.423016 / 1 hour,$0.445304335 / 1 hour,$0.318074524 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.853624312 / 1 hour,$0.674363181 / 1 hour,$0.486565857 / 1 hour,N/A,N/A,$0.510832 / 1 hour,$0.537783319 / 1 hour,$0.38413094 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.000416348 / 1 hour,$0.790328877 / 1 hour,$0.570237317 / 1 hour,N/A,N/A,$0.598648 / 1 hour,$0.630262303 / 1 hour,$0.450187356 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.147208384 / 1 hour,$0.906294573 / 1 hour,$0.653908777 / 1 hour,N/A,N/A,$0.686464 / 1 hour,$0.722741287 / 1 hour,$0.516243772 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.000832696 / 1 hour,$1.580657754 / 1 hour,$1.140474634 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.260524606 / 1 hour,$0.900374712 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.734376528 / 1 hour,$1.370157357 / 1 hour,$0.988594617 / 1 hour,N/A,N/A,$1.037728 / 1 hour,$1.092657223 / 1 hour,$0.780469436 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.001665392 / 1 hour,$3.161315508 / 1 hour,$2.280949268 / 1 hour,N/A,N/A,$2.394592 / 1 hour,$2.521049212 / 1 hour,$1.800749424 / 1 hour
-2026-10-28T06:25:35.340695+00:00,South Carolina (us-east1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:15.340768+00:00,South Carolina (us-east1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$8.003330784 / 1 hour,$6.322631016 / 1 hour,$4.561898536 / 1 hour,N/A,N/A,$4.789184 / 1 hour,$5.042098424 / 1 hour,$3.601498848 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.64688 / 1 hour,$0.5433792 / 1 hour,$0.3751904 / 1 hour,$0.32344 / 1 hour,-,$0.2574 / 1 hour,$0.44634 / 1 hour,$0.28463 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.29376 / 1 hour,$1.0867584 / 1 hour,$0.7503808 / 1 hour,$0.64688 / 1 hour,-,$0.5148 / 1 hour,$0.89268 / 1 hour,$0.56926 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.58752 / 1 hour,$2.1735168 / 1 hour,$1.5007616 / 1 hour,$1.29376 / 1 hour,-,$1.0296 / 1 hour,$1.78536 / 1 hour,$1.13852 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$4.49993 / 1 hour,$3.7799412 / 1 hour,$2.6099594 / 1 hour,$2.2500 / 1 hour,N/A,$1.79036 / 1 hour,$3.105 / 1 hour,$1.97945 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$8.99986 / 1 hour,$7.5598824 / 1 hour,$5.2199188 / 1 hour,$4.500 / 1 hour,N/A,$3.58072 / 1 hour,$6.21 / 1 hour,$3.9589 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$17.99972 / 1 hour,$15.1197648 / 1 hour,$10.4398376 / 1 hour,$9 .0000/ 1 hour,N/A,$7.16144 / 1 hour,$12.42 / 1 hour,$7.9178 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$35.99944 / 1 hour,$30.2395296 / 1 hour,$20.8796752 / 1 hour,$18.0000 / 1 hour,N/A,$14.32288 / 1 hour,$24.84 / 1 hour,$15.8356 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.704517824 / 1 hour,$0.556569088 / 1 hour,$0.401575162 / 1 hour,N/A,N/A,$0.357084 / 1 hour,$0.443846261 / 1 hour,$0.317033032 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.850829188 / 1 hour,$0.672155072 / 1 hour,$0.484972642 / 1 hour,N/A,N/A,$0.431268 / 1 hour,$0.536022433 / 1 hour,$0.382873144 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$0.997140552 / 1 hour,$0.787741056 / 1 hour,$0.568370122 / 1 hour,N/A,N/A,$0.505452 / 1 hour,$0.628198605 / 1 hour,$0.448713256 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.143451916 / 1 hour,$0.90332704 / 1 hour,$0.651767602 / 1 hour,N/A,N/A,$0.579636 / 1 hour,$0.720374777 / 1 hour,$0.514553368 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$1.994281104 / 1 hour,$1.575482112 / 1 hour,$1.136740244 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.25639721 / 1 hour,$0.897426512 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.728697372 / 1 hour,$1.365670976 / 1 hour,$0.985357522 / 1 hour,N/A,N/A,$0.876372 / 1 hour,$1.089079465 / 1 hour,$0.777913816 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$3.988562208 / 1 hour,$3.150964224 / 1 hour,$2.273480488 / 1 hour,N/A,N/A,$2.021808 / 1 hour,$2.51279442 / 1 hour,$1.794853024 / 1 hour
-2026-10-28T06:25:37.156676+00:00,Northern Virginia (us-east4),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:17.121998+00:00,Northern Virginia (us-east4),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$7.977124416 / 1 hour,$6.301928448 / 1 hour,$4.546960976 / 1 hour,N/A,N/A,$4.043616 / 1 hour,$5.02558884 / 1 hour,$3.589706048 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.71157 / 1 hour,$0.5977188 / 1 hour,$0.4127106 / 1 hour,$0.32344 / 1 hour,-,$0.3627 / 1 hour,$0.49097 / 1 hour,$0.31309 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.42314 / 1 hour,$1.1954376 / 1 hour,$0.8254212 / 1 hour,$0.64688 / 1 hour,-,$0.7254 / 1 hour,$0.98194 / 1 hour,$0.62618 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.84628 / 1 hour,$2.3908752 / 1 hour,$1.6508424 / 1 hour,$1.29376 / 1 hour,-,$1.4508 / 1 hour,$1.96388 / 1 hour,$1.25236 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$4.949923 / 1 hour,$4.15793532 / 1 hour,$2.87095534 / 1 hour,$2.2500 / 1 hour,N/A,$2.52288 / 1 hour,$3.4155 / 1 hour,$2.177395 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$9.899846 / 1 hour,$8.31587064 / 1 hour,$5.74191068 / 1 hour,$4.500 / 1 hour,N/A,$5.04576 / 1 hour,$6.831 / 1 hour,$4.35479 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$19.799692 / 1 hour,$16.63174128 / 1 hour,$11.48382136 / 1 hour,$9 .0000/ 1 hour,N/A,$10.09152 / 1 hour,$13.662 / 1 hour,$8.70958 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$39.599384 / 1 hour,$33.26348256 / 1 hour,$22.96764272 / 1 hour,$18.0000 / 1 hour,N/A,$20.18304 / 1 hour,$27.324 / 1 hour,$17.41916 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.79610514 / 1 hour,$0.628923059 / 1 hour,$0.453779921 / 1 hour,N/A,N/A,$0.071828 / 1 hour,$0.501546272 / 1 hour,$0.358247328 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.96143698 / 1 hour,$0.759535211 / 1 hour,$0.548019061 / 1 hour,N/A,N/A,$0.086756 / 1 hour,$0.605705344 / 1 hour,$0.432646656 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.12676882 / 1 hour,$0.890147363 / 1 hour,$0.642258201 / 1 hour,N/A,N/A,$0.101684 / 1 hour,$0.709864416 / 1 hour,$0.507045984 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.29210066 / 1 hour,$1.020759515 / 1 hour,$0.736497341 / 1 hour,N/A,N/A,$0.116612 / 1 hour,$0.814023488 / 1 hour,$0.581445312 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.25353764 / 1 hour,$1.780294726 / 1 hour,$1.284516402 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.419728832 / 1 hour,$1.014091968 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.95342802 / 1 hour,$1.543208123 / 1 hour,$1.113453901 / 1 hour,N/A,N/A,$0.176324 / 1 hour,$1.230659776 / 1 hour,$0.879042624 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.50707528 / 1 hour,$3.560589452 / 1 hour,$2.569032804 / 1 hour,N/A,N/A,$0.406736 / 1 hour,$2.839457664 / 1 hour,$2.028183936 / 1 hour
-2026-10-28T06:25:38.907922+00:00,Columbus (us-east5),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:18.900531+00:00,Columbus (us-east5),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.01415056 / 1 hour,$7.121178904 / 1 hour,$5.138065608 / 1 hour,N/A,N/A,$0.813472 / 1 hour,$5.678915328 / 1 hour,$4.056367872 / 1 hour
-2026-10-28T06:25:40.670777+00:00,Alabama (us-east7),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:40.670777+00:00,Alabama (us-east7),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:36:20.667330+00:00,Alabama (us-east7),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:20.667330+00:00,Alabama (us-east7),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.64688 / 1 hour,$0.5433792 / 1 hour,$0.3751904 / 1 hour,$0.32344 / 1 hour,-,$0.249 / 1 hour,$0.44634 / 1 hour,$0.28463 / 1 hour
-2026-10-28T06:25:40.670777+00:00,Alabama (us-east7),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:36:20.667330+00:00,Alabama (us-east7),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.29376 / 1 hour,$1.0867584 / 1 hour,$0.7503808 / 1 hour,$0.64688 / 1 hour,-,$0.498 / 1 hour,$0.89268 / 1 hour,$0.56926 / 1 hour
-2026-10-28T06:25:40.670777+00:00,Alabama (us-east7),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:36:20.667330+00:00,Alabama (us-east7),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.58752 / 1 hour,$2.1735168 / 1 hour,$1.5007616 / 1 hour,$1.29376 / 1 hour,-,$0.996 / 1 hour,$1.78536 / 1 hour,$1.13852 / 1 hour
-2026-10-28T06:25:40.670777+00:00,Alabama (us-east7),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:36:20.667330+00:00,Alabama (us-east7),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.64688 / 1 hour,$0.5433792 / 1 hour,$0.3751904 / 1 hour,$0.32344 / 1 hour,-,$0.2547 / 1 hour,$0.44634 / 1 hour,$0.28463 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.29376 / 1 hour,$1.0867584 / 1 hour,$0.7503808 / 1 hour,$0.64688 / 1 hour,-,$0.5094 / 1 hour,$0.89268 / 1 hour,$0.56926 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.58752 / 1 hour,$2.1735168 / 1 hour,$1.5007616 / 1 hour,$1.29376 / 1 hour,-,$1.0188 / 1 hour,$1.78536 / 1 hour,$1.13852 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$4.49993 / 1 hour,$3.7799412 / 1 hour,$2.6099594 / 1 hour,$2.2500 / 1 hour,N/A,$1.77212 / 1 hour,$3.105 / 1 hour,$1.97945 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$8.99986 / 1 hour,$7.5598824 / 1 hour,$5.2199188 / 1 hour,$4.500 / 1 hour,N/A,$3.54424 / 1 hour,$6.21 / 1 hour,$3.9589 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$17.99972 / 1 hour,$15.1197648 / 1 hour,$10.4398376 / 1 hour,$9 .0000/ 1 hour,N/A,$7.08848 / 1 hour,$12.42 / 1 hour,$7.9178 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$35.99944 / 1 hour,$30.2395296 / 1 hour,$20.8796752 / 1 hour,$18.0000 / 1 hour,N/A,$14.17696 / 1 hour,$24.84 / 1 hour,$15.8356 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.834062084 / 1 hour,$0.658909041 / 1 hour,$0.475415391 / 1 hour,N/A,N/A,$0.075216 / 1 hour,$0.5254591 / 1 hour,$0.37532796 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.007276668 / 1 hour,$0.795748557 / 1 hour,$0.574147707 / 1 hour,N/A,N/A,$0.090832 / 1 hour,$0.6345843 / 1 hour,$0.45327452 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.180491252 / 1 hour,$0.932588073 / 1 hour,$0.672880023 / 1 hour,N/A,N/A,$0.106448 / 1 hour,$0.7437095 / 1 hour,$0.53122108 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.353705836 / 1 hour,$1.069427589 / 1 hour,$0.771612339 / 1 hour,N/A,N/A,$0.122064 / 1 hour,$0.8528347 / 1 hour,$0.60916764 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.360982504 / 1 hour,$1.865176146 / 1 hour,$1.345760046 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.487419 / 1 hour,$1.06244216 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.046564172 / 1 hour,$1.616785653 / 1 hour,$1.166541603 / 1 hour,N/A,N/A,$0.184528 / 1 hour,$1.2893355 / 1 hour,$0.92095388 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.721965008 / 1 hour,$3.730352292 / 1 hour,$2.691520092 / 1 hour,N/A,N/A,$0.425792 / 1 hour,$2.974838 / 1 hour,$2.12488432 / 1 hour
-2026-10-28T06:25:42.430005+00:00,Dallas (us-south1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:22.431739+00:00,Dallas (us-south1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.443930016 / 1 hour,$7.460704584 / 1 hour,$5.383040184 / 1 hour,N/A,N/A,$0.851584 / 1 hour,$5.949676 / 1 hour,$4.24976864 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.64688 / 1 hour,$0.5433792 / 1 hour,$0.3751904 / 1 hour,$0.32344 / 1 hour,-,$0.2163 / 1 hour,$0.44634 / 1 hour,$0.28463 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.29376 / 1 hour,$1.0867584 / 1 hour,$0.7503808 / 1 hour,$0.64688 / 1 hour,-,$0.4326 / 1 hour,$0.89268 / 1 hour,$0.56926 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.58752 / 1 hour,$2.1735168 / 1 hour,$1.5007616 / 1 hour,$1.29376 / 1 hour,-,$0.8652 / 1 hour,$1.78536 / 1 hour,$1.13852 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$4.49993 / 1 hour,$3.7799412 / 1 hour,$2.6099594 / 1 hour,$2.2500 / 1 hour,N/A,$1.5049 / 1 hour,$3.105 / 1 hour,$1.97945 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$8.99986 / 1 hour,$7.5598824 / 1 hour,$5.2199188 / 1 hour,$4.500 / 1 hour,N/A,$3.0098 / 1 hour,$6.21 / 1 hour,$3.9589 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$17.99972 / 1 hour,$15.1197648 / 1 hour,$10.4398376 / 1 hour,$9 .0000/ 1 hour,N/A,$6.0196 / 1 hour,$12.42 / 1 hour,$7.9178 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$35.99944 / 1 hour,$30.2395296 / 1 hour,$20.8796752 / 1 hour,$18.0000 / 1 hour,N/A,$12.0392 / 1 hour,$24.84 / 1 hour,$15.8356 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.706832276 / 1 hour,$0.558397485 / 1 hour,$0.402894397 / 1 hour,N/A,N/A,$0.423016 / 1 hour,$0.445304335 / 1 hour,$0.318074524 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.853624312 / 1 hour,$0.674363181 / 1 hour,$0.486565857 / 1 hour,N/A,N/A,$0.510832 / 1 hour,$0.537783319 / 1 hour,$0.38413094 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.000416348 / 1 hour,$0.790328877 / 1 hour,$0.570237317 / 1 hour,N/A,N/A,$0.598648 / 1 hour,$0.630262303 / 1 hour,$0.450187356 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.147208384 / 1 hour,$0.906294573 / 1 hour,$0.653908777 / 1 hour,N/A,N/A,$0.686464 / 1 hour,$0.722741287 / 1 hour,$0.516243772 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.000832696 / 1 hour,$1.580657754 / 1 hour,$1.140474634 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.260524606 / 1 hour,$0.900374712 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.734376528 / 1 hour,$1.370157357 / 1 hour,$0.988594617 / 1 hour,N/A,N/A,$1.037728 / 1 hour,$1.092657223 / 1 hour,$0.780469436 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.001665392 / 1 hour,$3.161315508 / 1 hour,$2.280949268 / 1 hour,N/A,N/A,$2.394592 / 1 hour,$2.521049212 / 1 hour,$1.800749424 / 1 hour
-2026-10-28T06:25:44.254643+00:00,Oregon (us-west1),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:24.201829+00:00,Oregon (us-west1),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$8.003330784 / 1 hour,$6.322631016 / 1 hour,$4.561898536 / 1 hour,N/A,N/A,$4.789184 / 1 hour,$5.042098424 / 1 hour,$3.601498848 / 1 hour
-2026-10-28T06:25:46.010562+00:00,Los Angeles (us-west2),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:46.010562+00:00,Los Angeles (us-west2),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:46.010562+00:00,Los Angeles (us-west2),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:25.973652+00:00,Los Angeles (us-west2),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:25.973652+00:00,Los Angeles (us-west2),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:25.973652+00:00,Los Angeles (us-west2),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.849683096 / 1 hour,$0.671249648 / 1 hour,$0.484319364 / 1 hour,N/A,N/A,$0.076472 / 1 hour,$0.535300384 / 1 hour,$0.382357424 / 1 hour
-2026-10-28T06:25:46.010562+00:00,Los Angeles (us-west2),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:25.973652+00:00,Los Angeles (us-west2),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.026141792 / 1 hour,$0.81065202 / 1 hour,$0.58490082 / 1 hour,N/A,N/A,$0.092344 / 1 hour,$0.646469368 / 1 hour,$0.461763848 / 1 hour
-2026-10-28T06:25:46.010562+00:00,Los Angeles (us-west2),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:25.973652+00:00,Los Angeles (us-west2),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.202600488 / 1 hour,$0.950054392 / 1 hour,$0.685482276 / 1 hour,N/A,N/A,$0.108216 / 1 hour,$0.757638352 / 1 hour,$0.541170272 / 1 hour
-2026-10-28T06:25:46.010562+00:00,Los Angeles (us-west2),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:25.973652+00:00,Los Angeles (us-west2),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.379059184 / 1 hour,$1.089456764 / 1 hour,$0.786063732 / 1 hour,N/A,N/A,$0.124088 / 1 hour,$0.868807336 / 1 hour,$0.620576696 / 1 hour
-2026-10-28T06:25:46.010562+00:00,Los Angeles (us-west2),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:25.973652+00:00,Los Angeles (us-west2),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.405200976 / 1 hour,$1.900108784 / 1 hour,$1.370964552 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.515276704 / 1 hour,$1.082340544 / 1 hour
-2026-10-28T06:25:46.010562+00:00,Los Angeles (us-west2),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:25.973652+00:00,Los Angeles (us-west2),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.084893968 / 1 hour,$1.647066252 / 1 hour,$1.188389556 / 1 hour,N/A,N/A,$0.187576 / 1 hour,$1.313483272 / 1 hour,$0.938202392 / 1 hour
-2026-10-28T06:25:46.010562+00:00,Los Angeles (us-west2),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:25.973652+00:00,Los Angeles (us-west2),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.810401952 / 1 hour,$3.800217568 / 1 hour,$2.741929104 / 1 hour,N/A,N/A,$0.432864 / 1 hour,$3.030553408 / 1 hour,$2.164681088 / 1 hour
-2026-10-28T06:25:46.010562+00:00,Los Angeles (us-west2),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:25.973652+00:00,Los Angeles (us-west2),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.620803904 / 1 hour,$7.600435136 / 1 hour,$5.483858208 / 1 hour,N/A,N/A,$0.865728 / 1 hour,$6.061106816 / 1 hour,$4.329362176 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.71157 / 1 hour,$0.5977188 / 1 hour,$0.4127106 / 1 hour,$0.32344 / 1 hour,-,$0.296 / 1 hour,$0.49097 / 1 hour,$0.31309 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.42314 / 1 hour,$1.1954376 / 1 hour,$0.8254212 / 1 hour,$0.64688 / 1 hour,-,$0.592 / 1 hour,$0.98194 / 1 hour,$0.62618 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.84628 / 1 hour,$2.3908752 / 1 hour,$1.6508424 / 1 hour,$1.29376 / 1 hour,-,$1.184 / 1 hour,$1.96388 / 1 hour,$1.25236 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$4.949923 / 1 hour,$4.15793532 / 1 hour,$2.87095534 / 1 hour,$2.2500 / 1 hour,N/A,$2.05934 / 1 hour,$3.4155 / 1 hour,$2.177395 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$9.899846 / 1 hour,$8.31587064 / 1 hour,$5.74191068 / 1 hour,$4.500 / 1 hour,N/A,$4.11868 / 1 hour,$6.831 / 1 hour,$4.35479 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$19.799692 / 1 hour,$16.63174128 / 1 hour,$11.48382136 / 1 hour,$9 .0000/ 1 hour,N/A,$8.23736 / 1 hour,$13.662 / 1 hour,$8.70958 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$39.599384 / 1 hour,$33.26348256 / 1 hour,$22.96764272 / 1 hour,$18.0000 / 1 hour,N/A,$16.47472 / 1 hour,$27.324 / 1 hour,$17.41916 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.849683096 / 1 hour,$0.671249648 / 1 hour,$0.484319364 / 1 hour,N/A,N/A,$0.076472 / 1 hour,$0.535300384 / 1 hour,$0.382357424 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$1.026141792 / 1 hour,$0.81065202 / 1 hour,$0.58490082 / 1 hour,N/A,N/A,$0.092344 / 1 hour,$0.646469368 / 1 hour,$0.461763848 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.202600488 / 1 hour,$0.950054392 / 1 hour,$0.685482276 / 1 hour,N/A,N/A,$0.108216 / 1 hour,$0.757638352 / 1 hour,$0.541170272 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.379059184 / 1 hour,$1.089456764 / 1 hour,$0.786063732 / 1 hour,N/A,N/A,$0.124088 / 1 hour,$0.868807336 / 1 hour,$0.620576696 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.405200976 / 1 hour,$1.900108784 / 1 hour,$1.370964552 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.515276704 / 1 hour,$1.082340544 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$2.084893968 / 1 hour,$1.647066252 / 1 hour,$1.188389556 / 1 hour,N/A,N/A,$0.187576 / 1 hour,$1.313483272 / 1 hour,$0.938202392 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.810401952 / 1 hour,$3.800217568 / 1 hour,$2.741929104 / 1 hour,N/A,N/A,$0.432864 / 1 hour,$3.030553408 / 1 hour,$2.164681088 / 1 hour
-2026-10-28T06:25:47.754574+00:00,Salt Lake City (us-west3),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:27.790485+00:00,Salt Lake City (us-west3),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.620803904 / 1 hour,$7.600435136 / 1 hour,$5.483858208 / 1 hour,N/A,N/A,$0.865728 / 1 hour,$6.061106816 / 1 hour,$4.329362176 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.71157 / 1 hour,$0.5977188 / 1 hour,$0.4127106 / 1 hour,$0.32344 / 1 hour,-,$0.3076 / 1 hour,$0.49097 / 1 hour,$0.31309 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.42314 / 1 hour,$1.1954376 / 1 hour,$0.8254212 / 1 hour,$0.64688 / 1 hour,-,$0.6152 / 1 hour,$0.98194 / 1 hour,$0.62618 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.84628 / 1 hour,$2.3908752 / 1 hour,$1.6508424 / 1 hour,$1.29376 / 1 hour,-,$1.2304 / 1 hour,$1.96388 / 1 hour,$1.25236 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$4.949923 / 1 hour,$4.15793532 / 1 hour,$2.87095534 / 1 hour,$2.2500 / 1 hour,N/A,$2.14008 / 1 hour,$3.4155 / 1 hour,$2.177395 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$9.899846 / 1 hour,$8.31587064 / 1 hour,$5.74191068 / 1 hour,$4.500 / 1 hour,N/A,$4.28016 / 1 hour,$6.831 / 1 hour,$4.35479 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$19.799692 / 1 hour,$16.63174128 / 1 hour,$11.48382136 / 1 hour,$9 .0000/ 1 hour,N/A,$8.56032 / 1 hour,$13.662 / 1 hour,$8.70958 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$39.599384 / 1 hour,$33.26348256 / 1 hour,$22.96764272 / 1 hour,$18.0000 / 1 hour,N/A,$17.12064 / 1 hour,$27.324 / 1 hour,$17.41916 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.79610514 / 1 hour,$0.628923059 / 1 hour,$0.453779921 / 1 hour,N/A,N/A,$0.476528 / 1 hour,$0.501546272 / 1 hour,$0.358247328 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.96143698 / 1 hour,$0.759535211 / 1 hour,$0.548019061 / 1 hour,N/A,N/A,$0.575456 / 1 hour,$0.605705344 / 1 hour,$0.432646656 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.12676882 / 1 hour,$0.890147363 / 1 hour,$0.642258201 / 1 hour,N/A,N/A,$0.674384 / 1 hour,$0.709864416 / 1 hour,$0.507045984 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.29210066 / 1 hour,$1.020759515 / 1 hour,$0.736497341 / 1 hour,N/A,N/A,$0.773312 / 1 hour,$0.814023488 / 1 hour,$0.581445312 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.25353764 / 1 hour,$1.780294726 / 1 hour,$1.284516402 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.419728832 / 1 hour,$1.014091968 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.95342802 / 1 hour,$1.543208123 / 1 hour,$1.113453901 / 1 hour,N/A,N/A,$1.169024 / 1 hour,$1.230659776 / 1 hour,$0.879042624 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.50707528 / 1 hour,$3.560589452 / 1 hour,$2.569032804 / 1 hour,N/A,N/A,$2.697536 / 1 hour,$2.839457664 / 1 hour,$2.028183936 / 1 hour
-2026-10-28T06:25:49.503815+00:00,Las Vegas (us-west4),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:29.565002+00:00,Las Vegas (us-west4),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
 Memory: 384GiB",$9.01415056 / 1 hour,$7.121178904 / 1 hour,$5.138065608 / 1 hour,N/A,N/A,$5.395072 / 1 hour,$5.678915328 / 1 hour,$4.056367872 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),G4 Standard,,,,-,-,,,,,
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),G4 Standard,,,,-,-,,,,,
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g4-standard-6,NVIDIA RTX PRO 6000,"GPUs: 1/8
 
 vCPUs: 6
 
 Memory: 22GiB",$0.64688 / 1 hour,$0.5433792 / 1 hour,$0.3751904 / 1 hour,$0.32344 / 1 hour,-,$0.2449 / 1 hour,$0.44634 / 1 hour,$0.28463 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g4-standard-12,NVIDIA RTX PRO 6000,"GPUs: 1/4
 
 vCPUs: 12
 
 Memory: 45GiB",$1.29376 / 1 hour,$1.0867584 / 1 hour,$0.7503808 / 1 hour,$0.64688 / 1 hour,-,$0.4898 / 1 hour,$0.89268 / 1 hour,$0.56926 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g4-standard-24,NVIDIA RTX PRO 6000,"GPUs: 1/2
 
 vCPUs: 24
 
 Memory: 90GiB",$2.58752 / 1 hour,$2.1735168 / 1 hour,$1.5007616 / 1 hour,$1.29376 / 1 hour,-,$0.9796 / 1 hour,$1.78536 / 1 hour,$1.13852 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g4-standard-48,NVIDIA RTX PRO 6000,"GPUs: 1
 
 vCPUs: 48
 
 Memory: 180GiB",$4.49993 / 1 hour,$3.7799412 / 1 hour,$2.6099594 / 1 hour,$2.2500 / 1 hour,N/A,$1.70352 / 1 hour,$3.105 / 1 hour,$1.97945 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g4-standard-96,NVIDIA RTX PRO 6000,"GPUs: 2
 
 vCPUs: 96
 
 Memory: 360GiB",$8.99986 / 1 hour,$7.5598824 / 1 hour,$5.2199188 / 1 hour,$4.500 / 1 hour,N/A,$3.40704 / 1 hour,$6.21 / 1 hour,$3.9589 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g4-standard-192,NVIDIA RTX PRO 6000,"GPUs: 4
 
 vCPUs: 192
 
 Memory: 720GiB",$17.99972 / 1 hour,$15.1197648 / 1 hour,$10.4398376 / 1 hour,$9 .0000/ 1 hour,N/A,$6.81408 / 1 hour,$12.42 / 1 hour,$7.9178 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g4-standard-384,NVIDIA RTX PRO 6000,"GPUs: 8
 
 vCPUs: 384
 
 Memory: 1440GiB",$35.99944 / 1 hour,$30.2395296 / 1 hour,$20.8796752 / 1 hour,$18.0000 / 1 hour,N/A,$13.62816 / 1 hour,$24.84 / 1 hour,$15.8356 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),G2 Standard,,,,-,-,,,,,
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g2-standard-4,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),G2 Standard,,,,-,-,,,,,
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g2-standard-4,NVIDIA L4,"GPUs: 1
 
 vCPUs: 4
 
 Memory: 16GiB",$0.706832224 / 1 hour,$0.558397462 / 1 hour,$0.40289437 / 1 hour,N/A,N/A,$0.07388 / 1 hour,$0.445304368 / 1 hour,$0.318074532 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g2-standard-8,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g2-standard-8,NVIDIA L4,"GPUs: 1
 
 vCPUs: 8
 
 Memory: 32GiB",$0.853624248 / 1 hour,$0.674363166 / 1 hour,$0.486565826 / 1 hour,N/A,N/A,$0.08916 / 1 hour,$0.537783336 / 1 hour,$0.384130964 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g2-standard-12,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g2-standard-12,NVIDIA L4,"GPUs: 1
 
 vCPUs: 12
 
 Memory: 48GiB",$1.000416272 / 1 hour,$0.79032887 / 1 hour,$0.570237282 / 1 hour,N/A,N/A,$0.10444 / 1 hour,$0.630262304 / 1 hour,$0.450187396 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g2-standard-16,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g2-standard-16,NVIDIA L4,"GPUs: 1
 
 vCPUs: 16
 
 Memory: 64GiB",$1.147208296 / 1 hour,$0.906294574 / 1 hour,$0.653908738 / 1 hour,N/A,N/A,$0.11972 / 1 hour,$0.722741272 / 1 hour,$0.516243828 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g2-standard-24,NVIDIA L4,"GPUs: 2
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g2-standard-24,NVIDIA L4,"GPUs: 2
 
 vCPUs: 24
 
 Memory: 96GiB",$2.000832544 / 1 hour,$1.58065774 / 1 hour,$1.140474564 / 1 hour,N/A,N/A,g2-standard-24-spot,$1.260524608 / 1 hour,$0.900374792 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g2-standard-32,NVIDIA L4,"GPUs: 1
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g2-standard-32,NVIDIA L4,"GPUs: 1
 
 vCPUs: 32
 
 Memory: 128GiB",$1.734376392 / 1 hour,$1.37015739 / 1 hour,$0.988594562 / 1 hour,N/A,N/A,$0.18084 / 1 hour,$1.092657144 / 1 hour,$0.780469556 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g2-standard-48,NVIDIA L4,"GPUs: 4
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g2-standard-48,NVIDIA L4,"GPUs: 4
 
 vCPUs: 48
 
 Memory: 192GiB",$4.001665088 / 1 hour,$3.16131548 / 1 hour,$2.280949128 / 1 hour,N/A,N/A,$0.41776 / 1 hour,$2.521049216 / 1 hour,$1.800749584 / 1 hour
-2026-10-28T06:25:51.257200+00:00,Phoenix (us-west8),g2-standard-96,NVIDIA L4,"GPUs: 8
+2026-10-29T06:36:31.328251+00:00,Phoenix (us-west8),g2-standard-96,NVIDIA L4,"GPUs: 8
 
 vCPUs: 96
 
