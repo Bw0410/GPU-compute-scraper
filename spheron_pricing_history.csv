@@ -524,3 +524,18 @@ Date,GPU,Family,VRAM_GB,RAM_GB,vCPUs,NVMe_GB,OnDemandPriceUSD_perGPUhr,SpotPrice
 2026-11-13,Vera Rubin,Rubin,288.0,,,,,,,Reserve,Ships H2 2026 · Specs at launch
 2026-11-13,GB300,Blackwell,288.0,,,,,,,Reserve,Blackwell Ultra · 288 GB HBM3e · NVLink 5
 2026-11-13,GB200,Blackwell,192.0,,,,,,,Reserve,Blackwell · 192 GB HBM3e · NVLink 5
+2026-11-14,B300,Blackwell,288.0,2768.0,192.0,512.0,12.36,5.87,53.0,Priced,
+2026-11-14,H100,Hopper,80.0,192.0,16.0,7600.0,2.39,2.21,8.0,Priced,
+2026-11-14,B200,Blackwell,192.0,1294.0,128.0,600.0,10.17,6.01,41.0,Priced,
+2026-11-14,H200,Hopper,141.0,1800.0,176.0,48100.0,4.79,3.39,29.0,Priced,
+2026-11-14,MI300X,CDNA 3,192.0,241.0,8.0,13194.0,3.59,,,Priced,
+2026-11-14,GH200,Hopper,96.0,432.0,64.0,4096.0,2.75,,,Priced,
+2026-11-14,A100,Ampere,80.0,96.0,16.0,768.0,1.48,1.19,20.0,Priced,
+2026-11-14,RTX PRO 6000,Blackwell,96.0,1744.0,192.0,512.0,2.35,1.76,25.0,Priced,
+2026-11-14,RTX 5090,Blackwell,32.0,120.0,12.0,900.0,0.78,,,Priced,
+2026-11-14,RTX 6000 Ada,,48.0,72.0,12.0,350.0,0.78,,,Priced,
+2026-11-14,L40S,Ada,48.0,72.0,12.0,625.0,0.96,,,Priced,
+2026-11-14,RTX 4090,Ada,24.0,512.0,64.0,15360.0,0.59,,,Priced,
+2026-11-14,Vera Rubin,Rubin,288.0,,,,,,,Reserve,Ships H2 2026 · Specs at launch
+2026-11-14,GB300,Blackwell,288.0,,,,,,,Reserve,Blackwell Ultra · 288 GB HBM3e · NVLink 5
+2026-11-14,GB200,Blackwell,192.0,,,,,,,Reserve,Blackwell · 192 GB HBM3e · NVLink 5
